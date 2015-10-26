@@ -22,7 +22,7 @@ The tester view is opportunistic. There's things we don't know we know, and ther
 
 ## What We Know and What We Don't Know
 
-![What Testing Gives Us](images/KnownAndUnknown.png)
+![Looking at World from Different Angles](images/KnownAndUnknown.png)
 
 ### A House-Building Example
 
@@ -69,7 +69,7 @@ Testing is a viewpoint that transforms into tests. There are four things testing
 
 Having tests gives you **spec**, that helps you understand what you are building. With the test, you can see the form of the function call, and improve it's design in relation to your intent of what you're building. This is a typical value of test-driven development approach.
 
-When you implement and you have the tests, you get **feedback**. The tests tell you that if you are making progress on getting the implementation in place. The tests describe scenarios and behaviors that fail without adding the related functionality, and that pass when the functionality is in place as intended. 
+When you implement and you have the tests, you get **feedback**. The tests tell you that if you are making progress on getting the implementation in place. The tests describe scenarios and behaviors that fail without adding the related functionality, and that pass when the functionality is in place as intended.
 
 
 
