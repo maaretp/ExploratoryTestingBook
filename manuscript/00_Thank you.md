@@ -7,6 +7,7 @@ I've learned that LeanPub is a great way to get away from a writer/publisher blo
 And I would hope more: I invite you to give feedback. I would love to hear what you like and don't like. I would love to hear what particular aspect you would like me to try to explain in writing. I would love you to correct me, help me improve my articulation and even learn new things I could share through this book.
 
 For the background learning that has gone into this book, I have five people in particular to thank for:
+
    * *Cem Kaner* coined the word Exploratory Testing and is the first source of intellectual testing I've studied since start of my career.
 
    * *James Lyndsay* is the great European exploratory testing teacher. His black-box machines to learn testing and his observations on the different ways of managing exploratory testing have been a driving inspiration. Him inviting me to participate in London Exploratory Workshops on Software Testing (LEWT) started my understanding of many of the ways I model exploration for this book.
