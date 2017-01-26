@@ -1,2 +1,4 @@
-00_Thank you.md
-01_What Testing Gives us.md
+00_Dedication.md
+01_Why_This_Book.md
+02_The_LeanPub_Way.md
+04_The_Two_Guiding_Principles.md
