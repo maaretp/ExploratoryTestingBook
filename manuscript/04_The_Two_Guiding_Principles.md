@@ -4,21 +4,19 @@ Whenever I need to define exploratory testing, I bow to people who have come bef
 
 Cem Kaner introduced me to the idea of exploratory testing with the first testing book I ever read: Testing Computer Software. He defines exploratory testing as:
 
-    **Exploratory software testing is a style of software testing that emphasizes the personal freedom and responsibility of the individual tester to continually optimize the value of her work by treating test-related learning, test design, test execution, and test result interpretation as mutually supportive activities that run in parallel throughout the project.**
+**Exploratory software testing is a style of software testing that emphasizes the personal freedom and responsibility of the individual tester to continually optimize the value of her work by treating test-related learning, test design, test execution, and test result interpretation as mutually supportive activities that run in parallel throughout the project.**
 
 Elisabeth Hendrickson et al. created an invaluable resource, a Cheat Sheet, to summarize some ideas common to starting with exploratory testing. She defines exploratory testing as:
 
-    **Exploratory testing is a systematic approach for discovering risks using rigorous analysis techniques coupled with testing heuristics.**
+**Exploratory testing is a systematic approach for discovering risks using rigorous analysis techniques coupled with testing heuristics.**
 
-A lot of writing on the topic and techniques are part of Rapid Software Testing Methodology that James Bach and Michael Bolton have created. They define exploratory testing as:
+A lot of writing on the topic and techniques are part of Rapid Software Testing Methodology that James Bach and Michael Bolton have created. They define all testing as exploratory and have recently deprecated the term.  
 
-    **<add the definition here>**
-
-I talk of exploratory testing to emphasize the difference that Julian Harty very clearly makes: "Most of the testing I see is worthless. It should be automated, and the automation deleted."
+Exploratory testing, to me, emphasizes the difference to other testing that Julian Harty very clearly points out: "Most of the testing I see is worthless. It should be automated, and the automation deleted." Exploratory testing isn't that testing. A lot of that testing is around through.
 
 I find myself talking about two guiding principles around exploratory testing again and again. These two guiding principles are **learning** and **opportunity cost**.
 
-# Learning
+## Learning
 
 If we run a test but don't stop to learn and let the results of the test we just run influence our choices on the next test, we are not exploring. Learning is a core to exploring. Exploring enables discovery of information that is surprising, and the surprise should lead into learning.
 
@@ -26,7 +24,7 @@ The learning attitude shows in the testing we do so that there is testing agains
 
 When we optimize for learning and providing as much relevant information as we can with whatever we have learned by that time, we can be useful in different ways at different phases of our learning with the system.
 
-# Opportunity Cost
+## Opportunity Cost
 
 Whatever we choose to do is a choice away from something else. Opportunity cost is the idea of becoming aware of your choices that have always more dimensions than the obvious.
 
