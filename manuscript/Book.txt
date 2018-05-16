@@ -2,5 +2,6 @@
 01_Why_This_Book.md
 02_The_LeanPub_Way.md
 04_The_Two_Guiding_Principles.md
-05_How_To_Explore_With_Intent.md
-06_Exploratory_Testing_An_API.md
+05_Place_Of_Exploration.md
+06_How_To_Explore_With_Intent.md
+07_Exploratory_Testing_An_API.md
