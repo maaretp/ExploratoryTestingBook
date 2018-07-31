@@ -1,7 +1,9 @@
 00_Dedication.md
 01_Why_This_Book.md
 02_The_LeanPub_Way.md
-04_The_Two_Guiding_Principles.md
-05_Place_Of_Exploration.md
-06_How_To_Explore_With_Intent.md
-07_Exploratory_Testing_An_API.md
+04_What_Is_Exploratory_Testing.md
+05_What_Is_Exploratory_Testing_Programmer_edition.md
+10_The_Two_Guiding_Principles.md
+20_Place_Of_Exploration.md
+30_How_To_Explore_With_Intent.md
+40_Exploratory_Testing_An_API.md
