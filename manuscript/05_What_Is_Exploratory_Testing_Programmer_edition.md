@@ -1,4 +1,4 @@
-# What is Exploratory Testing - the Programmer Dedication
+# What is Exploratory Testing - the Programmer Edition
 
 In the new software world regime where programmers find themselves taking a lot more responsibility of testing, we need to understand what exploratory testing is as it extends what most programmer’s find their tests covering, and causes us talk past each other in understanding what testing.
 
