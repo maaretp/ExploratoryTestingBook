@@ -4,11 +4,11 @@ I used to have a book deal with a publisher, and the main thing that came out of
 
 The more I've learned, the more I've also realizes that my learning will never stop. I can proudly show my old texts and my new texts indicating experiences that have caused a 180 turn in my perspectives. I can only speak with the experience I have. I expect you, the reader, to read it with the experience you have, and take everything with a grain of salt. I'm sharing lessons from my experience.
 
-I found LeanPub with another book I paired to write (check Mob Programming Guidebook by me and Llewellyn Falco) and writing on this platform is different.
+I found LeanPub with another book to write and writing on this platform is different.
 
 I publish pieces that could be useful as I write them, giving myself permission to iterate and increment the book.
 
-You will see pieces in the book that I've published as articles with Ministry of Testing. Their contribution has been invaluable in getting me started with writing beyond blogging.
+You will see pieces in the book that I've published as articles and blog posts. I'm working though harmonizing and combining, and making the book easier to read, incrementally.
 
 My readers can choose to read as I write or at any point later. I can make the book available for free, and those readers who pay for the book, even a few dollars, are priceless source of motivation for me to keep adding stuff.
 

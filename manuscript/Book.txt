@@ -6,4 +6,8 @@
 10_The_Two_Guiding_Principles.md
 20_Place_Of_Exploration.md
 30_How_To_Explore_With_Intent.md
+31_Recall_Heuristics_For_Test_Ideation.md
 40_Exploratory_Testing_An_API.md
+41_Exploring_WebUI_With_Automation.md
+42_Anchoring_an_Idea_While_Exploring_API.md
+50_Testcase_Management_Tools_In_Exploring.md
