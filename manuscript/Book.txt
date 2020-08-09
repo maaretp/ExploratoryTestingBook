@@ -13,4 +13,7 @@
 40_Exploratory_Testing_An_API.md
 41_Exploring_WebUI_With_Automation.md
 42_Anchoring_an_Idea_While_Exploring_API.md
+45_Learning_About_Learning.md
 50_Testcase_Management_Tools_In_Exploring.md
+51_Automation_First_Microheuristic.md
+60_Training_an_Exploratory_Tester.md
