@@ -16,6 +16,7 @@
 510_Recall_Heuristics_For_Test_Ideation.md
 551_Automation_First_Microheuristic.md
 600_Examples_of_Exploring.md
+610_How_Would_You_Test_a_Textfield.md
 630_Exploring_Gilded_Rose.md
 640_Exploring_WebUI_With_Automation.md
 650_Python_Primer_For_Exploring_An_API.md
