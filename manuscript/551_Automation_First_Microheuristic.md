@@ -18,4 +18,4 @@ When that choice is available, these things could impact choosing Automation Fir
 
 I was thinking of this as I realized that the automated tests on my current system see very few problems. There is no relevant environmental difference, like with my previous job. Automation works mostly in the change dimension, unlike my previous job.
 
-Going into the moment of making this choice, I find I still go back to my one big heuristic that guides it all: **Never be bored**. First or Second does not matter as much as the idea that keeping things varied helps keep me away from boredom. Documenting with automation makes sense to avoid that boredom in the long run. 
+Going into the moment of making this choice, I find I still go back to my one big heuristic that guides it all: **Never be bored**. First or Second does not matter as much as the idea that keeping things varied helps keep me away from boredom. Documenting with automation makes sense to avoid that boredom in the long run.
