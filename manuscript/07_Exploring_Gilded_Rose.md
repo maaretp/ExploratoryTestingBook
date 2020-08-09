@@ -183,4 +183,4 @@ The lessons were:
 
   * One test one requirement isn’t a thing. They are a messy network of dependencies.
 
-There is no easy recipe for testing any application. Stop to think. Approach from different angles. Check and double-check. And don’t hide in your corner, maximise your chances of getting to the right information by working with the others.
+There is no easy recipe for testing any application. Stop to think. Approach from different angles. Check and double-check. And don’t hide in your corner, maximize your chances of getting to the right information by working with the others.

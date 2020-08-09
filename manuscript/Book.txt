@@ -3,10 +3,13 @@
 02_The_LeanPub_Way.md
 04_What_Is_Exploratory_Testing.md
 05_What_Is_Exploratory_Testing_Programmer_edition.md
+06_Where_Is_Exploratory_Testing.md
+07_Exploring_Gilded_Rose.md
 10_The_Two_Guiding_Principles.md
 20_Place_Of_Exploration.md
 30_How_To_Explore_With_Intent.md
 31_Recall_Heuristics_For_Test_Ideation.md
+39_Python_Primer_For_Exploring_An_API.md
 40_Exploratory_Testing_An_API.md
 41_Exploring_WebUI_With_Automation.md
 42_Anchoring_an_Idea_While_Exploring_API.md
