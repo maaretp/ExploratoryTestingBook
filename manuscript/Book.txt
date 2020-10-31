@@ -1,4 +1,5 @@
 000_Dedication.md
+0001_Personal_Journey_to_Exploratory_Testing.md
 001_Why_This_Book.md
 002_The_LeanPub_Way.md
 003_About_the_Author.md
