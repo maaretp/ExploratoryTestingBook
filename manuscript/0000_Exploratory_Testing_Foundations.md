@@ -656,9 +656,23 @@ When writing a bug report, you should consider making it more likely to be fixed
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide45.png)
 
+Let's try testing and creating a mindmap while we are testing. Document all functions we have found, all data we have tried, and all bugs we have found. How does your map look? 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide46.png)
 
+At this point, your mindmap should look like early example on the course we shared after first impression. You may already know more than what the early mindmap entailed. Everything you know is not documented, but your documentation could help you rediscover things effectively later and show what your thoughts were while testing. 
+
+Mindmap is *documentation in the moment*. You choose what keywords are useful for recalling your learning, and structure them as you go about testing an application. 
+
+When you learn, you *restructure the map as you learn*. Sometimes we see people make major changes on their maps as they understand connections of features of an application, and that is where mindmaps are on their best. They encourage that change through drag and drop of branches to their proper relational places. 
+
+Saving the mindmap in a common structure and place can work as *documentation for the future*. It does not have everything, but it has things you have considered relevant to write down. 
+
+*General purpose mindmaps* include ideas and heuristics you could use for multiple similar applications. Try searching online for web application testing mindmaps, and you find many examples. If those help you, color coding coverage of ideas may be sufficient for you. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide47.png)
+
+
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide48.png)
 
