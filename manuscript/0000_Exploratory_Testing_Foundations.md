@@ -584,11 +584,75 @@ Did you try googling for HTML and accessibility validators? Both find problems w
 
 ## Constraints about Documentation
 
+We are half-way through our slides for this course, and we change gears now towards documentation. The next chapters introduce three ways of documenting. 
+
+   * Making notes in a mindmap
+
+   * Creating "test cases" in automation tooling that only document steps
+
+   * Creating executable documentation through exploring with automation
+
+Documentation is a constraint, as it slows us down when running through ideas with application. We want to create documentation that serves the tester doing the testing, and often those notes don't need to be shared with anyone. When we need to share our notes, writing them in a way that enables others takes some thought. 
+
+We believe that whenever we have time to create traditional step-by-step test cases, we are likely better off if we were creating test automation instead. Our recommendation is to make choices between no documentation visible to others, session notes in any format and detail required, and executable documentation based on available skills and time. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide42.png)
+
+The first format of documenting we discuss is a mindmap. Creating a mindmap has some benefits:
+
+   * It is fast to create and restructure.
+
+   * It is visual representation of relationships of things we model from the application.
+
+   * Having something to show from what we covered in our testing enables others to comment on our thought patterns.
+
+   * It can naturally be built while exploring to anchor our learning. 
+
+There are a lot of mindmapping tools, and I commonly use Mindmup. Within company with company secrets, I use Xmind and save files on company hard drives only. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide43.png)
 
+Mindmaps can have any structure. Sometimes people start with a template reminding of the constraints we have had in the earlier sessions: Function, Data, Environment, Domain. We find a good use of mindmap is to remember that less words is better. Making functionalities visible so that we can write down our data, questions, and bugs as color coded nodes is what we propose to try. 
+
+Rather than writing down everything, write down things that were hard to come by or were major learnings when you were exploring. 
+
+Maps can grow too big, and we may need to structure them into multiple maps each with a particular perspective. 
+
+Our lesson learned over years of using mindmaps is that they serve well in discovering a new functionality and its testing. They don't serve as well when trying to remember all functionalities there are to consider impacts of new changes across functionalities. We often find we create a checklist out of established structures we mapped out earlier in the project for this purpose. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide44.png)
+
+Since we are now discussing the basic documentation of testing, we should talk a little bit about bug reports as the core documentation.
+
+Cem Kaner et al. wrote in their book Lessons Learned in Software Testing this:
+
+> A tester that does not report bugs well is like a refridgerator light that is only on when the door is closed. 
+
+In providing information and starting conversations, only conversations started can make a difference. Our bug report handling skills are often our signature in the project. 
+
+We believe that instead of automatically reporting a bug, contemporary exploratory testing includes the need of considering options:
+
+   * **Fix it yourself**. If in the same time it takes to report the bug, you could fix it. What stops you?
+
+   * **Pair with developer**. If with little more time you could learn how bugs are fixed and developer could learn how bugs are found, you should pair to fix & unit test. What stops you? 
+
+   * **Discuss before reporting**. Show the bug as demo, and see if the developers would fix it immediately. If fixing now is not the right thing, report so that we don't forget. If the bug finding is timely, developers are not yet busy with other work. 
+
+   * **Write a bug report**. Write a report. 
+
+When writing a bug report, you should consider making it more likely to be fixed by paying attention to reporting. RIMGEN is a way of remembering how to do that. 
+
+   * Replicate. Make sure that with whatever your report says, the readers of report will be able to see the problem as well. 
+
+   * Isolate. Don't just report vague symptoms, analyze the problem and isolate what causes it.  
+
+   * Maximize. Describe impact of it realistically but with motivating through maximized consequences you can analyze for it.  
+
+   * Generalize. Find the most meaningful sample of it. Even if you found that trash text overflows the intended area, report it with real text.
+
+   * Externalize. Speak of its meaning in terms of a stakeholder that matters. 
+
+   * Neutral tone. Keep it factual. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide45.png)
 
