@@ -128,16 +128,20 @@ In this first chapter, we don’t yet get to use the application, but we get to 
 
 With exploratory testing, you need to appreciate learning. Learning shows up by your ideas changing, and ideas changing change your actions. You should notice when your ideas change. It is expected, welcomed, and makes you better. You can’t have the best answers available at the time you know the least. 
 
-With an application you have never seen before, it is clear you now know the least. It is harder to appreciate how that is true on your day-to-day job, with the same application with new changes coming in. Yet it is the same: at start you may know a lot, but you still know the least about that specific change and its impacts on the application compared to what you can know given proper time to explore it. 
+With an application you have never seen before, it is clear you *now* know the least. It is harder to appreciate how that is true on your day-to-day job, with the same application with new changes coming in. Yet it is the same: at start you may know a lot, but you still know the least about that specific change and its impacts on the application compared to what you can know given proper time to explore it. 
+
+Working in pairs or ensemble on generating ideas, we find people do better with versatile ideas than on their own. Then again, having a lot of ideas before you know anything that would help you prioritize or target your testing isn't going to be the best use of your time. Recognize what you think is most pressing on your list of ideas. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide9.png)
 
 The application we test on this Exploratory Testing Foundations course is called E-Primer. It’s a little application for people who want to check their English writing to master e-prime – a way of writing English avoiding the “be” –verb in all its formats. 
 
-I chose this application because I was under impression it is not target-rich application for testers. That is, it is not so full of bugs that you should consider it ridiculous. 
-Having tested it, I know it has its share of issues. 
+We chose this application because we were under impression it is not target-rich application for testers. That is, it is not so full of bugs that you should consider it ridiculous. 
+Having tested it, I know it has its share of issues. And to begin with, the version we styled for this course has one major issue that the original did not have and we haven't yet fixed it. 
 
 We can figure out what the application is and what it does by using it. Also, name of the application gives us a hint and allows us to research e-prime further should we want to. 
+
+At this point, let's not yet go and use the application. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide10.png)
 
@@ -145,9 +149,9 @@ By the time we get to chapter 3: The Moment of First Impression, your first impr
 
 Before you move forward, stop to think. What would you do first, and what soon after you get started? If you make an inventory of ideas you have, what do you list? Try doing that. 
 
-We, people testing applications, come to the targets of testing with our biases. Our internal dialogue of being awesome just as much as our internal dialogue of being bad have impact on our ability to look at what we can do objectively, which is why I encourage writing things down to support your own learning about yourself. 
+People testing applications come to the targets of testing with our biases. Our internal dialogue of being awesome just as much as our internal dialogue of being bad has an impact on our ability to look at what we can do objectively, which is why I encourage writing things down to support your own learning about yourself. Learning is about changing your mind, replacing something you thought you knew with something more accurate, and adding new knowledge on top of what you already knew. Pay attention to what your first instincts say about testing this one. 
 
-This supports your learning, and I would not ask you to do this with every application you ever test. But it is an option you can start with, an option I enforce here for learning purposes even if it didn’t help with optimizing value of testing the application at hand. 
+This careful listing of your starting point supports your learning, and we would not ask you to do this with every application you ever test. But it is an option you can start with, an option we enforce here for learning purposes even if it didn’t help with optimizing value of testing the application at hand. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide11.png)
 
@@ -159,22 +163,30 @@ Time you spend wandering without a purpose with an application could be a way of
 
 Balancing your options and creating new options as you go is at the heart of exploratory testing. 
 
+If you can research the domain in a way where you continuously test and learn, you are simultaneously learning and contributing. 
+
+If you start using the application, take control over what you do. Think of what is included, and particularly what isn't included.
+
+Some people will start with automation first. With many sessions over testing this application, we have come to understand it both enables and limits us. We see some types of problems, while becoming more blind to others. Same works when we start with use of the application first. No matter what constraint we choose to start with, it is our right as exploratory testers to make that choice for ourselves. 
+
+## Self-Management in Exploratory Testing
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide12.png)
 
-You have option for exploring, and your task in exploratory testing is adjust your constraints on a cycle that enables you personally to keep up and do the best possible testing you can. Exploratory testing centers the tester, so you don’t have someone from the outside telling you what detail to verify, the control is with you. 
+You have options for exploring, and your task in exploratory testing is adjust your intent, charter and constraints on a cycle that enables *you* to keep up and do the best possible testing you can. Exploratory testing centers the tester, so you don’t have someone from the outside telling you what detail to verify, the control is with you. 
 
-Some people tell me that the freedom frustrates them and makes it hard for them to start. They don’t have to have this freedom; they are free to set themselves into a box that enables them. They are also free to let themselves out of the box they created, when they discover that to be useful. 
+Some people tell us that the freedom frustrates them and makes it hard for them to start. They don’t have to have this freedom; they are free to set themselves into a box that enables them. They are also free to let themselves out of the box they created, when they discover that to be useful. 
 
 In this chapter, we introduce three concepts:
-   * Charters
+   * Charters 
    * Constraints
    * Multi-dimensional thinking for intent and learning
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide13.png)
 
-Charters are a key concept in how the community talks about framing our exploratory testing. You can think of a charter as a box that helps you focus and generate ideas, but also assess when you think you are done with a particular idea. 
+Charters are a key concept in how the community talks about framing your exploratory testing. You can think of a charter as a box that helps you focus and generate ideas, but also assess when you think you are done with a particular idea. 
 
-I like to think of charters as free form test cases. 
+We like to think of charters as free form test cases. 
 
 A charter could be a chapter from your design specification you want to understand empirically with the application. 
 
@@ -182,19 +194,25 @@ A charter could be reminding you of a non-functional perspective, like accessibi
 
 A charter could be a very traditional step-by-step test case with your promise of stretching every single step to both it’s intended path but paths it inspires. 
 
-Charter is a structure for thinking like this, not passing work along like this. Some people use charters to share work in team and my advice is to not do that unless you co-created the charters in the first place. As soon as you remove tester designing, executing and learning intertwined, and replace it with a tester designing and another executing, you will lose a core feature of exploratory testing. 
+Charter is a structure for *thinking like this*, not *passing work along like this*. Some people use charters to share work in team and our advice is to not do that *unless* you co-created the charters in the first place. As soon as you remove tester designing, executing, and learning intertwined, and replace it with a tester designing and another executing, you will lose a core feature of what makes testing exploratory testing and shorten the leash a tester learns in. 
 
-Elizabeth Hendrickson introduced a charter template in her book Explore It, and Elizabeth Zagroba introduced an adaptation of it in one of her presentations. I like the concise template a lot but encourage you to think in terms of charters being anything that can box your testing and help you maintain focus, rather than follow a format. 
+Elizabeth Hendrickson introduced a charter template in her book Explore It, and Elizabeth Zagroba introduced an adaptation of it in one of her presentations. We like the concise template a lot but encourage you to think in terms of charters being anything that can box your testing and help you maintain focus, rather than follow a format. 
+
+We advise against using charters for passing work along unless the work distribution is a shared endeavor between people. When we pass them along, the process starts to resemble traditional test cases where someone is following another's lead. This might be a temporary structure you try when you have new testers but our advise on teaching new testers is to pair with them rather than passing information through documentation they don't yet understand how to stretch. 
+
+Growing a new tester in exploratory testing, we often see a pattern of first looking at an application as something that has little to test. Pairing and sharing dimensions in an actionable way transforms the tester, and with the tester, the results the tester is able to deliver. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide14.png)
 
-I prefer framing exploratory testing with constraints, which is one of the options to use in resources part of the charter template we looked at. The way I look at it, we have limited bandwidth to doing many things at once, and for us to frame the work we do in an effective way, we need to deliberately exclude perspectives. 
+We prefer framing exploratory testing with constraints, which is one of the options to use in resources part of the charter template. The way we look at it, we have limited bandwidth to doing many things at once, and for us to frame the work we do in an effective way, we need to deliberately exclude perspectives to a level where we can cope with the perspectives we have decided to focus on. 
 
-Like, I could say I am deliberately not writing notes at all to get through as much of different scenarios of using the application I can think of. Or, I could say I will go through a document describing correct behavior in detail, ensuring not to miss important claims. 
+Like, you could say you are deliberately not writing notes at all to get through as much of different scenarios of using the application you can think of. Or, you could say you will go through a document describing correct behavior in detail, ensuring not to miss important claims. You could say you will get through 100 scenarios around the application quickly, or five in a lot of detail in the same timeframe - a day of testing. You most likely cannot do it all at once but need multiple passes with the application, with seemingly same tests but different ideas in what to do and pay attention to. 
 
-If I try to do everything at once, I can’t get any of it done. So, I get to choose my constraint with my primary heuristic to never be bored.  
+If you try to do everything at once, you can’t get any of it done. So, we get to choose our constraint with my primary heuristic to never be bored.  
 
-Testing is a lot of fun. Finding out information that others don’t know is investigative work, and servicing many stakeholders is an intellectual challenge. No matter what changed, there is something new we now need to figure out, in a way that optimizes the value of our work. Doing the exact same things isn’t optimizing value of our work, so we start with the idea of always varying things to not be bored. If you find yourself to be bored, you need a new constraint that challenges you. 
+Testing is a lot of fun. Finding out information that others don’t know is investigative work, and servicing many stakeholders is an intellectual challenge. No matter what changed, there is something new we now need to figure out, in a way that optimizes the value of our work. Doing the exact same things isn’t optimizing value of our work, so you start with the idea of always varying things to not be bored. If you find yourself bored, you need a new constraint that challenges you. 
+
+Some folks take automation as the challenge that keeps them from being bored. Others find the multidimensional work all the ways we could use the application to see new problems motivating. Some people say that automating helps them have time for exploring, and they mean that seeing simple problems isn't good use of anyone's time. Covering ground with the application under test in a repeatable way is the gruntwork of automation.  However, automating on level of unit tests might be our best bet towards catching unintended simple bugs and we like framing freeform exploratory testing and unit tests together in keeping things interesting! 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide15.png)
 
