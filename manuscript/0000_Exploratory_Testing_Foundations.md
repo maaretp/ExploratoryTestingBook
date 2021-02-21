@@ -558,9 +558,29 @@ We evaluate applications as systems for multiple stakeholders. Pointing out the 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide39.png)
 
+We talked about environment being important, but let's reiterate parts of execution environment for a web application. 
+
+   * **Browsers, web and mobile on an operating system** - We have a lot of browsers, browser versions, browser versions on different operating systems. Some operating systems are desktop, others mobile. And majority of people use web on mobile phonese these days. Operating systems have security features that may adversely hit your product, and antivirus solutions in particular might not like your site or its content and functionality quite as you envisioned. 
+
+   * **Browser functionality, settings, add-ons** - Browsers have functionality (like zoom), settings (like no cookies), and add-ons (like ad-blocker). While you don't have to support them all, you probably want to know their impact to your application before your users are on the phone upset on not even understanding why your application does not work on their computer. 
+
+   * **HTML standard compatibility** - Badly formatted html causes errors in the browsers and creates differences across browsers. Try to run your site though a checker tool. 
+
+   * **Accessibility standard compatibility** - Your application may not work for disabled people, and some of the low-hanging fruit in that space are collected in standard checkers available as sites and browser add-ons. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide40.png)
 
+Time to test for things that are about the environment. Using execution environment and what your application relies on as a constraint, explore what issues are there with E-Primer. Do you find new issues? What kind of a list of environment functionality you come up with? 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide41.png)
+
+This particular constraint always gets the least amount of time and has widest possible scope. Setting up different operating systems with different antiviruses and browsers, both web and mobile is a significant effort. 
+
+We often approach environments with a rotational strategy - on different days we are on a different environment. Sometimes we automate for basic coverage of the environments, but the automation may not notice visual issues unless we specifically build for that having considered it good use of time. 
+
+Many environment difference issues we rather address in user interface designs that work across browsers, sticking closely to a standard and tried technology. We also may announce to support only certain browsers, or browser versions. It is close to the time organizations are starting to be able to say goodbye to Internet Explorer and support only Edge from Microsoft browsers. 
+
+Did you try googling for HTML and accessibility validators? Both find problems with this web application. 
 
 ## Constraints about Documentation
 
