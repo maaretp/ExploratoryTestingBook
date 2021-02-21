@@ -67,8 +67,12 @@ We usually think of the process in terms of time used on activities. Simply put,
 
    * **Test**: Using time on test, you go through new ideas of what to try and observe. Without time on test, coverage will not grow.
    * **Bug**: Using time on bug, you work on understanding information you are discovering and refining it to better serve others as you pass it on. 
-   * **Setup**: Using time on setup, we work to make test possible. You may be setting up test data, operating the application to get to a starting point or solving issues on getting to test. 
+   * **Setup**: Using time on setup, we work to make test possible. You may be setting up test data, operating the application to get to a starting point, researching while connecting information with the target of testing or solving issues on getting to test. 
    * **Document**: Using time on document, you leave notes and materials for your future self and anyone coming after you. This becomes increasingly important to track as own activity when we apply test automation as documentation. 
+
+These activities can happen in any size chunks within the process. They can be consecutive or concurrent. Usually through practice an exploratory tester learns to intertwine things for an appearance of concurrency of some perspectives, and each tester combines things within what they are comfortable with. 
+
+Thinking back to the process of driving a car - When you were new driving stick, you would accidentally stop your car on traffic lights, forgetting which gear you were on, or letting go of clutch a little too soon. Over time, the basic operation of the car became a routine leaving you time to pay attention to surroundings rather than operating the car. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide4.png)
 
@@ -78,7 +82,14 @@ No matter what the features the tester goes in with, going with the idea of lear
 
 What we can’t take in as we start, we can acquire as we do testing. We can ask around. We can research. We can read existing documentation and apply it to the application under test. We can constrain ourselves with a test technique. We can make notes and create versions of documentation we intend to leave behind. 
 
-Exploratory testing – doing testing from whatever the input - emphasizes learning while contributing. And while it can be something you do solo, on your own, it is also something you can do with a pair or a group. 
+Exploratory testing – doing testing from whatever the input - emphasizes learning while contributing. And while it can be something you do solo, on your own, it is also something you can do with a pair or a group (ensemble). 
+
+We want to spefically mention four categories of input:
+
+   * **Domain knowlegde** is about what the tester knows and how well the existing knowledge enables connecting with new knowledge to understand what the application is about, why would anyone want to use it and what risks pose a relevant, meaningful threat to its value.Both knowing domain of this application or another domain enable you to compare and contrast the information you have to information you are acquiring as you are testing, and building patterns. ß 
+   * **Requirements and specifications** is about knowing the agreements around the organization on what the application under test should do. While being aware of claims is good, sticking only to claims made by others limits testing in a way that it can block us from starting conversations on relevant features we are missing. 
+   * **Testing knowledge** is about knowing how to think in terms of charters and constraints to provide new relevant information about the application under test. It's about understanding the difference of seeing something work and then seeing it fail in both ways it should (error messages) and should not (bugs). 
+   * **Miscellaneous knowledge** is about everything else, including the tester's ability to program. Being fluent in programming enables writing documentation as code that can then stay around for later. Endless curiosity in wanting to understand how the world works helps ask relevant questions about the application instead of settling too low. Catalytic skills enable drawing other people's knowledge into the work you are doing and creating connections for shared success. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide5.png)
 
