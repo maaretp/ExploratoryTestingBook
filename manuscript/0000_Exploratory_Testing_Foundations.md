@@ -240,7 +240,7 @@ You can also completely skip a bug, a question or the documentation. The more th
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide16.png)
 
-You are approaching the moment of first impression. You usually want to see it work before you see it fail, or you don’t understand and appreciate the way it fails to communicate the fail properly. What is the first thing you will do? Would you frame your start as a charter, a constraint or as an intent? Or maybe you have your own style of framing your testing that we did not talk about here? 
+You are approaching the moment of first impression. You usually want to see it work before you see it fail, or you don’t understand and appreciate the way it fails to communicate the fail properly. What is the first thing you will do? Both as a high level idea, and as a specific idea - what would you try first and why? Would you frame your start as a charter, a constraint or as an intent? Or maybe you have your own style of framing your testing that we did not talk about here? 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide17.png)
 
@@ -250,11 +250,27 @@ We already saw the application, even if we did not yet use it. One more thing to
 
 With making choices of what we do first and what we do after, it is good to be aware that while we have an endless selection of options, some options expire. 
 
-You can only have a 1st experience without having read documentation or given a personal demo before those have happened for you. Even if you can’t have the first impression personally working closely with the feature, you can always work to borrow someone else’s experience through pairing or watching them use the application. 
+You can only have a first experience without having read documentation or given a personal demo before those have happened for you. Even if you can’t have the first impression personally working closely with the feature, you can always work to borrow someone else’s experience through pairing or watching them use the application. 
+
+With time of first impression, you will want to listen to your feelings about the application more carefully, without yet jumping to conclusions about what is an important problem and what isn't. Notice now, prioritize later when you have context. 
 
 While many of our options don’t expire and we can do them in which ever order, it takes exceeding amount of energy to remain curious about the new information when you have already tried many things. I find that we often give up and stop testing too soon! In the words of the famous Albert Einstein: “It’s not that I’m so smart, I just stay with the problems longer.” Given time of use, software has the habit of revealing issues it has always had but we either could not see or appreciate earlier. 
 
-When working close to a deadline, options expire also on what feedback is welcome. Days into a major release, issues considered major months before can be prioritized down. Timing of feedback matters. 
+On this course we propose you have multiple rounds with the very same application with a different constraint:
+
+   * Test it with first impression
+   * Test it with focus on domain knowledge and documentation, aim to being systematic in coverage of spec
+   * Test it with focus on functionality - both code and UI
+   * Test it with focus on data - what should work, what should not, and how those could surprise us
+   * Test it with mindmap as documentation
+   * Test it with traditional test cases within test automation tooling, without automating
+   * Test it with running automation you create to do testing for you
+
+The same application and seven rounds. You can put these in any order and your experience with the testing of the application will be different. Only the first impression is something that expires by its nature.
+
+The others expire if you cannot maintain focus and interest, and start believing you have already found everything relevant or come to conclusion that the application isn't worth this much effort. 
+
+When working close to a deadline, options expire also on what feedback is welcome. Days leading into a major release, issues considered major months before can be prioritized down. Timing of feedback matters. 
 
 You usually stop testing before you have exhausted all your options. Knowing your options helps you be intentional about it. 
 
