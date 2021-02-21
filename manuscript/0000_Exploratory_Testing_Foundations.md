@@ -418,39 +418,67 @@ To get to some of the samples the Wikipedia page leads you to, you have to go th
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide28.png)
 
-Now that we have an idea of the domain, let’s look at the functionality. 
+Now that we have an idea of the domain, let’s look at the functionality as a constraint. 
 
-Different applications are built on a different technology. As someone testing an application, knowing about the technology is something we would expect. Not expert level knowing, but at least a basic level curiosity turning into expert level knowing over time, question after question. 
+Different applications are built on a different technology. As someone testing an application, getting to know about the technology is something we would expect. Not expert level knowledge, but at least a basic level curiosity turning into expert level knowing over time, question after question. 
 
-A lot of testers given a picture of the application start suggesting SQL into the text box, which makes little sense now that we know the application under test is a javascript application that runs in your browser after you have downloaded it. The application keeps working even if you disconnect from network as long as you don’t try to refresh from the download location. 
+A lot of testers given a picture of the application start suggesting SQL into the text box or want to use Developer tools to watch network traffic. They find themselves puzzled with a javascript application running in browser after you first download it, and their backend related test ideas are not taking them far.  The application keeps working even if you disconnect from network as long as you don’t try to refresh from the download location. 
 
 Let’s discuss functionality as constraint a little more. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide29.png)
 
-For functionality – features – we find a good approach to be seeing function in different scale and naming it. 
+For functionality – features – we find a good approach to be seeing function in different scales and naming it. Naming helps us think about coverage of each named function separately. 
 
-The code has functions the programmer has given names to. It is structured as functions the programmer calls to get their intended results overall.  We could use a unit testing framework to explore the functions of the code, and for the scale we can, we probably should. 
+The code has functions the programmer has given names to. It is structured as functions the programmer calls to get their intended results overall.  We could use a unit testing framework to explore the functions of the code, and for the scale we can, we probably should. Unit tests are great because they deliver feedback on the level of a developer making breaking changes. If unit tests document (in automation) the developer intent, it also reminds about it with red in running it after a breaking change. 
 
-The application has functions we would probably name ourselves. Some of those functions come from what the programmer explicitly introduces, some come from the fact that it runs in a browser. 
+The application user interface has functions we would probably name ourselves. Some of those functions come from what the programmer explicitly introduces, some come from the fact that it runs in a browser. 
 
 We can name what we see. We can name what we expect to see. And we can compare those. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide30.png)
 
-Given the constraint of function, what would you test? 
+Given the constraint of function, what would you test? You could start with the code, but we suggest you start with the user interface. Give labels to functionality you see the application have, and explore each functionality for information about it. 
+
+It counts words - what rules apply to counting words?
+
+It recognizes e-prime in text - what rules apply to e-prime in text? 
+
+It color-codes e-prime - how could we know it marks the right words? 
+
+It runs on a browser - what functionality does browser introduce for it? 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide31.png)
 
 Usually when we use the constraint of function after using the constraints of domain, we find there is either an overlap or challenges in naming things we did not already see. Many times, we find we need to point at a function directly and name it to make it visible. 
 
-With this application, there are a few functions that are not obvious.
+With this application, there are a few functions that are not obvious:
 
-Text area for output text has a size limit with the grey background
-Text box is resizable, and so is the page and browser window
-Anything running in browser has a connection to browser settings
-The eprime recognition algorithm is core to the problem and feels to be on a weaker side
-Between our version of the application and eviltester’s version of the application, we have lost scroll bars – a function really relevant when dealing with larger chunks of text
+   * Text area for output text has a size limit for width of the grey background
+
+   * Text box is resizable, and so is the page and browser window
+
+   * Anything running in browser has a connection to browser settings
+
+   * The eprime recognition algorithm is core to the problem and feels to be on a weaker side
+
+   * Between our version of the application and eviltester’s version of the application, we have lost scroll bars – a function really relevant when dealing with larger chunks of text
+
+We can name functions in many ways:
+
+   * Inputs
+
+   * Outputs
+
+   * Containers 
+
+   * Presentation
+
+   * Browser
+
+   * Algorithm
+
+Categories of function serve as idea generators. We are sure there is more to browser than we have listed here. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide32.png)
 
