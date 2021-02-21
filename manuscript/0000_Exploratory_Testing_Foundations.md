@@ -524,11 +524,17 @@ Given the constraint of data, now it is time to find the things that could be di
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide36.png)
 
-- 'be'
-- long text without spaces
-- pdf to text
-- gif as text 
-- 
+We find that with this constraint, people find new bugs they were not previously aware of. We've collected some of the most typical ones here. 
+
+   * anything but space as word delimiter - application only recognizes space as word delimiter and messes up count of words when we use anything else - including the hyphen and line feed. 
+
+   * apostrophes - there's two types of it and application only knows one, and even we did not expect to learn about differences of typesetter and typewrite apostrophes. Similarly, put the apostrophes right into the forbidden word, and it no longer gets recognized: 'be' 
+
+   * long text - varying lenght of text is quite basic variation of the goldilocks rule, and finds a bug that reproduces on the course version of the application but not on the one Eviltester created. Seems like styling into a new page introduces functional problems that were unexpected until discovered. 
+
+   * e-prime - recognizing well-formulated e-prime and it's violations, in scale of relevance. Not just individual words but longer bodies of text. To get to test these, you either fix the bug on the application creating a local copy or use the Eviltester version. Yes, testers can fix bugs and wasting time because we shouldn't for a simple fix makes little sense. 
+
+Note: To fix the bug, you need to fix the css. Change "position: fixed;" to "position:relative;". One line googleable fix. Sometimes you fixing the bug is faster than you writing a bug report. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide37.png)
 
