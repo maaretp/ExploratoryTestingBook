@@ -1,24 +1,33 @@
 # Exploratory Testing Foundations
 
-With so much to say and share on Exploratory Testing, what would you need to know to get started? This question lead to summarizing basic theory on exploratory testing around one test target, and to creation of Exploratory Testing Foundations course material. The course and slides: Exploratory Testing Foundations by Maaret Pyhäjärvi is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
+With so much to say and share on Exploratory Testing, what would you need to know to get started? This question lead us to summarizing basic theory on exploratory testing around one test target, and to creation of Exploratory Testing Foundations course material. The course and slides: Exploratory Testing Foundations by Maaret Pyhäjärvi is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/. 
+
+To create the course, Maaret Pyhäjärvi paired to test the application under test with the brilliant Irja Straus (Croatia), Parveen Khan (United Kingdom), Julia Durán Muñoz (Spain) and Mirja Pyhäjärvi (Finland). The application and lessons were tried with many ensemble testing groups to finally come to be summarized as part of this course. We particularly want to appreciate two open space communities in creation of this content: Socrates UK and TestCraftCamp. Both served as places to try out hands-on testing of the application to see the dynamics under various constraints. Pair testing and ensemble testing are social software testing approaches. In a pair, we have two people testing. In an ensemble, we have a group of at least three people. Both forms of social software testing enable us to test and learn together, and give us a better feel of the results testing of the application can produce. With tens of sessions with this little application, no two sessions have produced exactly the same results but each session has produced useful results that can be used to build on, should we seek good coverage over our target of testing. 
 
 The course and this section sets out to teach foundational concepts of contemporary exploratory testing:
 
    * It is an approach to testing in which we optimize value of our testing. 
-   * It is not about guessing errors but systematically combining information from available sources to do the best work possible for the context at hand.
-   * It is multidisciplinary and allows us to take perspectives (using 'constraints') one after the other or simultaneously on the discretion of the person doing testing
+   * It is about systematically combining information from available sources to do the best work possible for the context at hand, not merely guessing errors.
+   * It is multidisciplinary and allows us to take perspectives (using 'constraints') one after the other or simultaneously on the discretion of the person doing testing.
    * It includes use of test automation both for documenting and as a means to do things otherwise out of our reach. 
-   * It leads us to thougtful test coverage, where most meaningful sense of coverage is on missing less important information (e.g. bugs)
+   * It leads us to thoughtful test coverage, where most meaningful sense of coverage is on missing less important information (e.g. bugs).
+   * It reveals that a simple application that appears to 'work' has meaningful layers to isolate information on. 
+
+We know there is more to teach on exploratory testing than this one course includes. We will create separate similar yet different sets on different types of applications and contraints that make sense with each of those examples. We will also address Exploratory testing the Noun - organizational frame of testing - on later courses. This one focuses on Exploratory testing the Verb - doing really good work optimizing value of testing through learning while testing. We give half of this course to the contraint of test automation as documentation, as we believe that this is a core aspect of contemporary exploratory testing. You can't automate well without exploring. You can't explore well without automating. 
+
+## Introduction to Exploratory Testing Foundations
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide1.png)
 
 Welcome to Exploratory Testing Foundations –course. This course intertwines a simple application to test with basic theory of how to do exploratory testing to give you a foundation to build on. 
 
-Exploratory testing is an approach to testing that centers learning. Test design and test execution form an inseparable pair where the application and feature we are testing is our external imagination. It takes domain knowledge, requirements and specifications, and testing knowledge as input and produces information and a better tester as an output. It usually also encourages us to at least consider documentation and test automation as a form of documentation. 
+Exploratory testing is an approach to testing that centers learning. Test design and test execution form an inseparable pair where the application and feature we are testing is our external imagination. It takes domain knowledge, requirements and specifications, and testing knowledge as input and produces information and a better tester as an output. It also encourages us to at least consider documentation and test automation as a form of documentation. 
 
-I think of this course as an antidote to the idea that test cases tell you how to test a feature and that is where a new tester would start. That type of test cases are only a small subset. You are expected to find defects, where the system does not work as we specified but not stop there. Finding change requests, things that would make things better for users is included. And instead of using most of your work time on documentation, I'm inviting you to consider lighter and executable formats of documenting. 
+We think of this course as an antidote to the idea that test cases tell you how to test a feature and that is where a new tester would start. That type of test cases are only a small subset. You are expected to find defects, where the system does not work as we specified but not stop there. Finding change requests, things that would make things better for users is included. And instead of using most of your work time on documentation, we're inviting you to consider lighter and executable formats of documenting. 
 
-This is what we fit into one day with one application. Theory and application go hand in hand. When taught in classroom, we will also reflect course experiences to work experiences and share war stories of testing in projects where applicable. 
+This is what we fit into two days with one application. Theory and application go hand in hand. When taught in classroom, we will also reflect course experiences to work experiences and share war stories of testing in projects where applicable. 
+
+In it's current format, the course takes two days in a classroom to deliver with many different passes. We are working to build a video course on the scope of the course, to enable people to learn this in scale as we are unable to make space for classroom guidance for everyone - we prioritize working as testers in projects over being teachers of testing. Thus the course material is openly available to use as is, or to freely adapt to scope of your choosing. We have delivered it in 99 minute segments combining various constraints learning it takes a minimum of three sessions to go through the ensemble testing to cover the application without theory slides. 
 
 Exploratory Testing Foundations by Maaret Pyhäjärvi is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
@@ -36,18 +45,30 @@ We remember we learn
    * by focusing our attention to both how it could work and how it could fail
    * by reflecting new information against what we know from the past
    * by experimenting with approaches outside our usual repertoire
+   * by centering value of information we produce
 
 The work we do is done in slots of time: a minute at a time, an hour at a time, a day at a time. Every unit of time, as we learn, makes us better at optimizing our value. 
 
 We go as fast as we need, or as slow as we need. Just like driving a car requires you to take yourself and your surroundings into account to choose the right speed for the situation at hand, same applies with exploratory testing. You drive, your speed and your route – with the destination in mind. 
 
+Optimizing value of our testing and centering learning hint that we most likely want to avoid investing prematurely into documentation. We also want to avoid forgetting documentation, as delivering the right documentation is part of our goals. We also want to avoid separating test ideas and test execution, but enable those two to go hand in hand, within the brain of the very same tester. Pulling information from outside, but not executing on someone else's orders. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide3.png)
 
-To set our minds for the road, let’s still talk about the process of exploratory testing. 
+To set our minds for the road, let’s talk about the process of exploratory testing. 
 
-We are given something new to test. It may be a new application like on this course. It may be a change in the application you’ve worked years on already. It may be a new feature that is new, in an application you are already familiar with. Your task in testing it is to provide information on when it works and when it doesn’t, in the perspective of stakeholders. 
+We are given something new to test. It may be a new application like one on this course. It may be a change in the application you’ve worked years on already. It may be a new feature that is new, in an application you are already familiar with. Your task in testing it is to provide information on when it works and when it doesn’t, in the perspective of stakeholders. 
 
-This is a process of information discovery. We already know something, and we use that. But we are asked to learn more and share our learning with the rest of the application team. 
+This is a process of information discovery. We already know something, and we use that. But we are asked to learn more and share our learning with the rest of the application team. The information you provide extends the existing information. 
+
+In the process of exploratory testing, anything can happen. Quality of output is related with quality of input, and time used in the process to learn and improve. 
+
+We usually think of the process in terms of time used on activities. Simply put, there are four main activities you will want to pay attention to:
+
+   * **Test**: Using time on test, you go through new ideas of what to try and observe. Without time on test, coverage will not grow.
+   * **Bug**: Using time on bug, you work on understanding information you are discovering and refining it to better serve others as you pass it on. 
+   * **Setup**: Using time on setup, we work to make test possible. You may be setting up test data, operating the application to get to a starting point or solving issues on getting to test. 
+   * **Document**: Using time on document, you leave notes and materials for your future self and anyone coming after you. This becomes increasingly important to track as own activity when we apply test automation as documentation. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide4.png)
 
