@@ -538,8 +538,13 @@ Note: To fix the bug, you need to fix the css. Change "position: fixed;" to "pos
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide37.png)
 
-In this chapter, we will see a bug I accidentally introduced in copying the test target and restyling it. We will also FIX it. 
+Next we look at a constraint I find core to the idea of *system testing*. Even when we work in teams creating our team's components and code, testing does not exist merely to test the code we have created. It does not comfort us much if our users tell us that the function they were trying to use does not work, even if we could explain that this is in fact because Microsoft operating system does not work correctly and we assume it does. 
 
+We find that often we need to constrain our attention to the operating environment of our application speficically to pay attention to things we must have interoperability with. 
+
+For a web application, different browsers and even browser versions are a low-hanging fruit for making choices where and how we test. Yet we often forget built-in functionalities in the browser such as settings the user can change, and 3rd party plugins our application needs to co-exist with even though we have no control over what the user has installed. 
+
+Recognizing our application architecture and technologies are a relevant part of this. We can expect different problems for different technologies. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide38.png)
 
@@ -549,8 +554,7 @@ Quality experience of our users depends on things that are outside our direct co
 
 Signal – the messaging app – is a great example, and Naomi Wu makes the point for one aspect of quality (security) very clearly. You are only as secure as the weakest link in the system, and you can’t have a secure application if it runs on a platform that isn’t secure. 
 
-We evaluate applications as systems for multiple stakeholders. 
-
+We evaluate applications as systems for multiple stakeholders. Pointing out the problem is someone else's in our supply chain does not comfort the users who see your company's logo in the corner of the application they are trying to work with. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide39.png)
 
