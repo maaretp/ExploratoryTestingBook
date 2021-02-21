@@ -116,11 +116,11 @@ This course is first in the series of Contemporary Exploratory Testing courses w
 
 The course is split into 17 chapters, where each chapter will have a supporting video, and the final chapters will describe the best testing we have done on the application. It isn’t a recipe for all applications, but an example for you to understand what coverage for this application may mean, and what parts of the work you could do make sense when you are truly optimizing value.  
 
-From the outline, you can see that we will be using a test automation framework (Robot Framework) on this course. Choice of tool is irrelevant but using one to give you concrete examples helps teach this content. Robot Framework allows for very natural language like programming in its own custom-made language and can be useful for new people to get into test automation programming, even if I believe it soon becomes a limiting factor you may want to learn away from. 
+From the outline, you can see that we will be using a test automation framework (Robot Framework) on this course. Choice of tool is irrelevant but using one to give you concrete examples helps teach this content. Robot Framework allows for natural language like programming in its own custom-made language and can be useful for new people to get into test automation programming. We believe it soon becomes a limiting factor you may want to learn away from and become a polyglot programmer.
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide7.png)
 
-
+The same course delivered in a one-day classroom format uses this four part structure. We start with options for exploring (and do exercise on documenting our ideas without use of application), continue with addressing personal choices on constraints allowing people to explore without automating, adding automation as constraint teaching people who to automate with Robot Framework Browser library, and conclude with addressing use of time over results, thinking through coverage. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide8.png)
 
