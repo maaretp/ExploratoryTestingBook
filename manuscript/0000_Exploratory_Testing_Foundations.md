@@ -314,9 +314,9 @@ You can also start conversations on the good things you see, the absence of bugs
 
 Let’s move to discussing domain, requirements and specifications. The information about what the application is and does comes to us in many forms. 
 
-Domain is the problem-solution space of the application. The application exists for a purpose, and that purpose is the domain. 
+Domain is the problem-solution space of the application. The application exists for a purpose. It has patterns of expectations that are specific to it and other applications in the same domain. A domain typically has domain specific concepts. 
 
-Sometimes we know the domain by just our life experience – like most editors. We know what a text editor does. While there are specific functions to a text editor, we can figure those out since we too have edited text before.
+Sometimes we know the domain by just our life experience – like most editors. We know what a text editor does. While there are specific functions to a text editor, we can figure those out since we too have edited text before. 
 
 Sometimes we know very little of the domain and need to learn it as we test it. Learning a domain effectively and becoming a domain expert over time is what we would expect from someone testing applications in a particular domain for a longer period. Knowing the domain or learning about it until we know is what separates us from assuming something could be right to understanding if it is right. 
 
@@ -326,8 +326,8 @@ To learn a domain is to acquire information about the problem-solution space of 
 
 You have three main routes to it:
    * **Conference** is about asking around. Talk to anyone you need to. 
-   * **Reference** is about getting an authoritative document. It may be given to you directly, or you may use general search to find it. 
-   * **Inference** is about applying other knowledge you have access to with this domain, expecting similarities or differences. 
+   * **Reference** is about getting to an authoritative document. It may be given to you directly, or you may need to search to find it. 
+   * **Inference** is about applying other knowledge you have access to on this domain, expecting similarities or differences. 
 
 You may have a requirements specification. You may have a functional specification. You may have a user interface specification. You may have an architecture specification. No matter what you have, it is not all you will need. And if you have none or some of these, or some others, we advice to think that documentation is useful but also it reflects the things we already think we know. Exploratory testing begins with what we know and seeks to learn what we don’t know yet. 
 
