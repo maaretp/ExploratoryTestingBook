@@ -262,11 +262,12 @@ On this course we propose you have multiple rounds with the very same applicatio
    * Test it with focus on domain knowledge and documentation, aim to being systematic in coverage of spec
    * Test it with focus on functionality - both code and UI
    * Test it with focus on data - what should work, what should not, and how those could surprise us
+   * Test it with focus on what it runs on, the environment
    * Test it with mindmap as documentation
    * Test it with traditional test cases within test automation tooling, without automating
    * Test it with running automation you create to do testing for you
 
-The same application and seven rounds. You can put these in any order and your experience with the testing of the application will be different. Only the first impression is something that expires by its nature.
+The same application and eight rounds. You can put these in any order and your experience with the testing of the application will be different. Only the first impression is something that expires by its nature.
 
 The others expire if you cannot maintain focus and interest, and start believing you have already found everything relevant or come to conclusion that the application isn't worth this much effort. 
 
@@ -297,13 +298,17 @@ Your first impression and learning of the application is most likely not taking 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide21.png)
 
-We would hope first impressions are not about bugs, defects and change requests for users of our applications. Tester’s sometimes get to bugs on the very first thing they do with an application, drawing from past experiences to select a way of using the application that reveals a bug. Tester’s fast forward a user’s year into the hours they use testing – or better yet, multiple users’ years. 
+We would hope first impressions are not about bugs, defects and change requests for users of our applications. Testers though get to bugs on the very first thing they do with an application, drawing from past experiences to select a way of using the application that reveals a bug. Tester fast forwards a user’s year into the hours they use testing – or better yet, multiple users’ years. 
 
-We like to think of bugs as conversation starters. Sometimes we need to avoid the word defect and reserve that only for use where it is clear that the behavior of the application is against something we explicitly agreed. Defects come with the burden of guarantee, whereas change requests have a different tone to them. In many teams, we have called bugs “undone work” to remove the judgement from the conversation – it is simply undone work we propose we still might want to do. 
+We like to think of bugs as conversation starters. Sometimes we need to avoid the word defect and reserve that only for use where it is clear that the behavior of the application is against something we explicitly agreed in a specification. Defects come with the burden of guarantee, whereas change requests have a different tone to them. Guarantee implies that it should be fixed at the cost of the software development organization. Change request implies the cost is separately invoiced. Thinking in terms of whose money the fix requires can be part of a testers work. In some organizations this categorization has less impact than the importance of what the feedback means for the user and customer satisfaction. 
 
-Bugs are things that might annoy a user, and unless someone starts a conversation on them, they conversation starts only at a time a user starts it. These conversations turn things we didn’t know into something we can be aware of. And for many, it enables us to design changes that remove the bugs. 
+In many teams, we have called bugs “undone work” to remove the judgement from the conversation – it is simply undone work we propose we still might want to do. 
+
+Bugs are things that might annoy a user or any stakeholder, and unless someone starts a conversation on them while still in development, the conversation starts only at a time a user starts it. These conversations turn things we didn’t know into something we can be aware of. And for many, it enables us to make changes that remove the bugs. 
 
 You can also start conversations on the good things you see, the absence of bugs that surprises you or just the things you find that make our users with our application more awesome. Having that empirical touch on what we have built gives you a perspective of use that serves as a conversation starter. Identify something good, find ways of getting more of that kind of good. 
+
+## More Specific Constraints
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide22.png)
 
@@ -439,6 +444,8 @@ We evaluate applications as systems for multiple stakeholders.
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide40.png)
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide41.png)
+
+## Constraints about Documentation
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide42.png)
 
