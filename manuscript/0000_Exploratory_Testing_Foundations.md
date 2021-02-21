@@ -278,12 +278,22 @@ You usually stop testing before you have exhausted all your options. Knowing you
 
 With all this said, it is our time to test. The application is available at https://www.exploratorytestingacademy.com/app/ and eviltester’s original at https://eviltester.github.io/TestingApp/apps/eprimer/eprimer.html. 
 
-Pay attention to where you start from, how you learn, and how you decide on your next steps. Each of the following chapters gives you one constraint that is applicable to this application at hand and explains where the constraint leads you. 
+Pay attention to where you start from, how you learn, and how you decide on your next steps. After every single thing you execute, stop and ask yourself: what did you learn? 
+
+Each of the following chapters also gives you one constraint that is applicable to this application at hand and explains where the constraint leads you. You can do those in any order, even in combination with the first impression. 
+
+Spend 15 minutes exploring the application alone, or 30 minutes in an ensemble. In an ensemble, pay attention to how you continue from what the previous was navigating to, and the intent emerging that changes direction. It is hard to follow through a larger idea with a group in the beginning. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide20.png)
 
-Your first impression and learning of the application is most likely not taking you this far. This mindmap is from an hour of pair testing with a tester who found none of these problems alone but needed training on how to look at an application to identify what might go wrong with it. The mindmap is by no means exhaustive list of things that are off with the application. We’ll talk about bugs  in more detail when we get to the part about coverage – because most relevant coverage is bug coverage except that we can only assess in hindsight.  
+We have lead the first impression to the course with different contraints with different people, and come to appreciate typical patterns in group work:
 
+   * Given automation from the start, we find at most one problem but we get coverage of basic functionality up significantly
+   * Given freedom without constraint, results vary greatly depending on the tester's skill in testing. Relevance of results is often weak. No documentation ends up being written, even notes of bugs. 
+   * Given domain documentation, the understanding of relevance of results is better. Approach to slicing documentation varies a lot. 
+   * Given a mindmap requirement and a functional contraint, people create clearer plans and document bugs in a quick way.  
+
+Your first impression and learning of the application is most likely not taking you this far. This mindmap is from an hour of pair testing with a tester who found none of these problems alone but needed training on how to look at an application to identify what might go wrong with it. The mindmap is by no means exhaustive list of things that are off with the application. We’ll talk about bugs in more detail when we get to the part about coverage – because most relevant coverage is bug coverage.  The challenge is, we can only assess bug coverage in hindsight.  
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide21.png)
 
