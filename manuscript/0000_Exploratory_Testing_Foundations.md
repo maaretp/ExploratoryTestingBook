@@ -7,10 +7,15 @@ To create the course, Maaret Pyhäjärvi paired to test the application under te
 The course and this section sets out to teach foundational concepts of contemporary exploratory testing:
 
    * It is an approach to testing in which we optimize value of our testing. 
+
    * It is about systematically combining information from available sources to do the best work possible for the context at hand, not merely guessing errors.
+
    * It is multidisciplinary and allows us to take perspectives (using 'constraints') one after the other or simultaneously on the discretion of the person doing testing.
+
    * It includes use of test automation both for documenting and as a means to do things otherwise out of our reach. 
+
    * It leads us to thoughtful test coverage, where most meaningful sense of coverage is on missing less important information (e.g. bugs).
+
    * It reveals that a simple application that appears to 'work' has meaningful layers to isolate information on. 
 
 We know there is more to teach on exploratory testing than this one course includes. We will create separate similar yet different sets on different types of applications and contraints that make sense with each of those examples. We will also address Exploratory testing the Noun - organizational frame of testing - on later courses. This one focuses on Exploratory testing the Verb - doing really good work optimizing value of testing through learning while testing. We give half of this course to the contraint of test automation as documentation, as we believe that this is a core aspect of contemporary exploratory testing. You can't automate well without exploring. You can't explore well without automating. 
@@ -39,12 +44,19 @@ To emphasize learning, we emphasize agency – the responsibility of the person 
 
 We remember we learn 
    * by researching the domain – the business, the legal, the financial 
+
    * by passing on information from those who worked on the problem before us  - the stakeholders, the requirements and specifications
+
    * by using the application and thinking while using it
+
    * by critically evaluating the application as we use it
+
    * by focusing our attention to both how it could work and how it could fail
+
    * by reflecting new information against what we know from the past
+
    * by experimenting with approaches outside our usual repertoire
+
    * by centering value of information we produce
 
 The work we do is done in slots of time: a minute at a time, an hour at a time, a day at a time. Every unit of time, as we learn, makes us better at optimizing our value. 
@@ -66,8 +78,11 @@ In the process of exploratory testing, anything can happen. Quality of output is
 We usually think of the process in terms of time used on activities. Simply put, there are four main activities you will want to pay attention to:
 
    * **Test**: Using time on test, you go through new ideas of what to try and observe. Without time on test, coverage will not grow.
+
    * **Bug**: Using time on bug, you work on understanding information you are discovering and refining it to better serve others as you pass it on. 
+
    * **Setup**: Using time on setup, we work to make test possible. You may be setting up test data, operating the application to get to a starting point, researching while connecting information with the target of testing or solving issues on getting to test. 
+
    * **Document**: Using time on document, you leave notes and materials for your future self and anyone coming after you. This becomes increasingly important to track as own activity when we apply test automation as documentation. 
 
 These activities can happen in any size chunks within the process. They can be consecutive or concurrent. Usually through practice an exploratory tester learns to intertwine things for an appearance of concurrency of some perspectives, and each tester combines things within what they are comfortable with. 
@@ -86,9 +101,12 @@ Exploratory testing – doing testing from whatever the input - emphasizes learn
 
 We want to spefically mention four categories of input:
 
-   * **Domain knowlegde** is about what the tester knows and how well the existing knowledge enables connecting with new knowledge to understand what the application is about, why would anyone want to use it and what risks pose a relevant, meaningful threat to its value.Both knowing domain of this application or another domain enable you to compare and contrast the information you have to information you are acquiring as you are testing, and building patterns. ß 
+   * **Domain knowlegde** is about what the tester knows and how well the existing knowledge enables connecting with new knowledge to understand what the application is about, why would anyone want to use it and what risks pose a relevant, meaningful threat to its value.Both knowing domain of this application or another domain enable you to compare and contrast the information you have to information you are acquiring as you are testing, and building patterns. 
+
    * **Requirements and specifications** is about knowing the agreements around the organization on what the application under test should do. While being aware of claims is good, sticking only to claims made by others limits testing in a way that it can block us from starting conversations on relevant features we are missing. 
+
    * **Testing knowledge** is about knowing how to think in terms of charters and constraints to provide new relevant information about the application under test. It's about understanding the difference of seeing something work and then seeing it fail in both ways it should (error messages) and should not (bugs). 
+
    * **Miscellaneous knowledge** is about everything else, including the tester's ability to program. Being fluent in programming enables writing documentation as code that can then stay around for later. Endless curiosity in wanting to understand how the world works helps ask relevant questions about the application instead of settling too low. Catalytic skills enable drawing other people's knowledge into the work you are doing and creating connections for shared success. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide5.png)
@@ -106,8 +124,11 @@ Successful output is effective: we find problems our organization expects us to 
 The four main categories of output we want to mention are: 
 
    * **Coverage** is about knowing how effective your testing is. Did you cover code (implemented), requirements (asked), risks (problems) and how can you tell?   
+
    * **Information** is about knowing your results. What conversations is testing starting? What changes are we making based on those conversations? Are we removing bugs that might bug a user? 
+
    * **Documentation: Strategy** is about knowing how we approach testing for this particular application under test. At first our ideas are vague, but in the end they should be at their clearest state. 
+
    * **Documentation: Tests** is about leaving behind a checklist of any sort that enables us to build on current learnings ourselves later or by others. How can we accelerate testing for next time around? 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide6.png)
@@ -179,7 +200,9 @@ Some people tell us that the freedom frustrates them and makes it hard for them 
 
 In this chapter, we introduce three concepts:
    * Charters 
+
    * Constraints
+
    * Multi-dimensional thinking for intent and learning
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide13.png)
@@ -259,12 +282,19 @@ While many of our options don’t expire and we can do them in which ever order,
 On this course we propose you have multiple rounds with the very same application with a different constraint:
 
    * Test it with first impression
+
    * Test it with focus on domain knowledge and documentation, aim to being systematic in coverage of spec
+
    * Test it with focus on functionality - both code and UI
+
    * Test it with focus on data - what should work, what should not, and how those could surprise us
+
    * Test it with focus on what it runs on, the environment
+
    * Test it with mindmap as documentation
+
    * Test it with traditional test cases within test automation tooling, without automating
+
    * Test it with running automation you create to do testing for you
 
 The same application and eight rounds. You can put these in any order and your experience with the testing of the application will be different. Only the first impression is something that expires by its nature.
@@ -290,8 +320,11 @@ Spend 15 minutes exploring the application alone, or 30 minutes in an ensemble. 
 We have lead the first impression to the course with different contraints with different people, and come to appreciate typical patterns in group work:
 
    * Given automation from the start, we find at most one problem but we get coverage of basic functionality up significantly
+
    * Given freedom without constraint, results vary greatly depending on the tester's skill in testing. Relevance of results is often weak. No documentation ends up being written, even notes of bugs. 
+
    * Given domain documentation, the understanding of relevance of results is better. Approach to slicing documentation varies a lot. 
+
    * Given a mindmap requirement and a functional contraint, people create clearer plans and document bugs in a quick way.  
 
 Your first impression and learning of the application is most likely not taking you this far. This mindmap is from an hour of pair testing with a tester who found none of these problems alone but needed training on how to look at an application to identify what might go wrong with it. The mindmap is by no means exhaustive list of things that are off with the application. We’ll talk about bugs in more detail when we get to the part about coverage – because most relevant coverage is bug coverage.  The challenge is, we can only assess bug coverage in hindsight.  
@@ -326,7 +359,9 @@ To learn a domain is to acquire information about the problem-solution space of 
 
 You have three main routes to it:
    * **Conference** is about asking around. Talk to anyone you need to. 
+
    * **Reference** is about getting to an authoritative document. It may be given to you directly, or you may need to search to find it. Sometimes references disagree, and you get to settle those disagreements while you are testing, through talking with people. 
+
    * **Inference** is about applying other knowledge you have access to on this domain, expecting similarities or differences. 
 
 You may have a requirements specification. You may have a functional specification. You may have a user interface specification. You may have an architecture specification. No matter what you have, it is not all you will need. And if you have none or some of these, or some others, we advice to think that documentation is useful but also it reflects the things we already think we know. Exploratory testing begins with what we know and seeks to learn what we don’t know yet.
@@ -357,8 +392,9 @@ Like with reading and writing English, they are connected but not the same. We c
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide26.png)
 
-It is time to test. Try out what how testing flows when focusing on the domain knowledge. What do you think of coverage of what you have tested so far? Eventually, we care about you not missing relevant information others don’t yet have and thus can’t specifically ask of you! 
+It is time to test. Try out what how testing flows when focusing on the domain knowledge. What do you think of coverage of what you have tested so far? Eventually, we care about you not missing relevant information others don’t yet have and thus can’t specifically ask of you! Try to make sure you cover the claims the wikipedia page includes, or that you can explain the percentage of coverage against that you think you have. 
 
+Take 15 minutes alone, of 30 minutes as an ensemble. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide27.png)
 
@@ -366,14 +402,19 @@ The combination of reading and using the application means a significant portion
 
 We expect you are now more comfortable with the application and have an idea of what it does. 
 
-You may still find the “Possible Violations” something you can’t understand or figure out. The written references on it are not particularly helpful. 
+You should now know that "Possible violations" isn't a concept you can find on that Wikipedia page or through simple online search. The written references on it are not particularly helpful and there is no documentation about it in the application.  
 
-Most commonly people come to understand “Possible Violations” as a side effect. We commonly see three routes to finding it. 
-Using the demo phrase this course has – given the demo phrase, people miss out how hard it is to figure out when it should not be
-Reading the code – figuring out from the code that “’s” is the search criteria for counting things as possible violations, and then understanding that it looks like possessive and “be”-verb appear so often in hard to distinguish formats that this appears a likely design choice signaling need of user intervention over programmatic algorithm doing all the work
-Using large data samples – browsing through large data samples, like copy-pasting the whole Wikipedia page text at once in the application and browsing for blue
+Most commonly people come to understand “Possible violations” as a side effect. We commonly see three routes to finding it. 
 
-You learn domain by asking questions and paying attention to answers. Not all your questions have an answer, but they start conversations you get to consider how far you take them. What helps you optimize the value of your work when testing? 
+   * Using the demo phrase this course has – given the demo phrase, people miss out how hard it is to figure out when it should not be
+
+   * Reading the code – figuring out from the code that “’s” is the search criteria for counting things as possible violations, and then understanding that it looks like possessive and “be”-verb appear so often in hard to distinguish formats that this appears a likely design choice signaling need of user intervention over programmatic algorithm doing all the work
+
+   * Using large data samples – browsing through large data samples, like copy-pasting the whole Wikipedia page text at once in the application and browsing for blue
+
+You learn domain by asking questions and paying attention to answers the application gives you when you test it. Not all your questions have an answer, but they start conversations. You get to consider how far you take them. What helps you optimize the value of your work when testing? 
+
+To get to some of the samples the Wikipedia page leads you to, you have to go through a number of tools. For example, a great reference of eprime where there should be low number of things to detect is the Bible written in e-prime, available as pdfs. To get pdf to text, you will need to find a tool online for that purpose, direct copypaste messes up the structure of your data. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide28.png)
 
