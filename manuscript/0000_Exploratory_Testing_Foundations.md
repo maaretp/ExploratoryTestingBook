@@ -326,10 +326,12 @@ To learn a domain is to acquire information about the problem-solution space of 
 
 You have three main routes to it:
    * **Conference** is about asking around. Talk to anyone you need to. 
-   * **Reference** is about getting to an authoritative document. It may be given to you directly, or you may need to search to find it. 
+   * **Reference** is about getting to an authoritative document. It may be given to you directly, or you may need to search to find it. Sometimes references disagree, and you get to settle those disagreements while you are testing, through talking with people. 
    * **Inference** is about applying other knowledge you have access to on this domain, expecting similarities or differences. 
 
-You may have a requirements specification. You may have a functional specification. You may have a user interface specification. You may have an architecture specification. No matter what you have, it is not all you will need. And if you have none or some of these, or some others, we advice to think that documentation is useful but also it reflects the things we already think we know. Exploratory testing begins with what we know and seeks to learn what we don’t know yet. 
+You may have a requirements specification. You may have a functional specification. You may have a user interface specification. You may have an architecture specification. No matter what you have, it is not all you will need. And if you have none or some of these, or some others, we advice to think that documentation is useful but also it reflects the things we already think we know. Exploratory testing begins with what we know and seeks to learn what we don’t know yet.
+
+When you have no documentation to refer to, you still have people and your past experiences. You can document relevant lessons and claims as you test them. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide24.png)
 
@@ -337,20 +339,21 @@ With E-Primer, we don’t have a specification. We have a Wikipedia description 
 
 We can search online for any information about e-prime we consider useful and educate ourselves on it. 
 
-With specification, we can find phrases to test with that showcase the application’s functionality. This good demo phrase is a result of testing, not the first idea to use the application even based on its specification. We can best get good demo examples by asking the developers on how they discover the functionality. 
+With specification, we can find phrases to test with that showcase the application’s functionality. This good demo phrase for E-primer - "To be or not to be is Hamlet's dilemma" - is a result of testing, not the first idea to use the application even based on its Wikipedia description. We can best get good demo examples by asking the developers on how they discover the functionality. The phrase illustrates how you can get to seeing both Discouraged words and Possible violations, while counting words correctly. 
+
+We have not talked to the application developer, Eviltester, to understand why he would choose to separate these two concepts. A working theory from exploration is that Possible violations are algorithmically harder to separate and require human assessment on whether it is possessive or a short form of "is". 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide25.png)
 
-With this specific application, we can find the source code to view it in the browser.
+With this specific application, we can find the source code. It is available in the browser on Developer tools / sources to view it in the browser. 
 
-Or we can find it in GitHub where it is hosted. https://github.com/exploratory-testing-academy/ETF/blob/master/app/eprime.js 
+It is also available on GitHub at https://github.com/exploratory-testing-academy/ETF/blob/master/app/eprime.js 
 
 Looking at the code gives us a direct chance of comparing what it can do to what we would expect it to do with regards to the Wikipedia page.  We could, just by reviewing the list of words that get marked discouraged identify that the words “you're, we're, they’re” that should be marked won’t be, as they are missing from the list. 
 
 Programs do what they are told. You don’t have to know how to read all of code to read enough code to make sense on existing logic. 
 
-We recommend all testers read pull requests / commits to understand scope of changes they are testing. 
-
+Like with reading and writing English, they are connected but not the same. We can read great novels yet not write ones ourselves. We recommend all testers read code, at least on the level of what is included and changed. Commits and pull request reviews help us understand scope of changes we are testing. Code in version control has one feature that is very useful for testing: nothing changes without someone changing it and we can watch it change. Same isn't always true for the environment the application relies on, or our customer's expectations. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide26.png)
 
