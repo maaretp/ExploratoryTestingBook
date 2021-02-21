@@ -416,6 +416,10 @@ You learn domain by asking questions and paying attention to answers the applica
 
 To get to some of the samples the Wikipedia page leads you to, you have to go through a number of tools. For example, a great reference of eprime where there should be low number of things to detect is the Bible written in e-prime, available as pdfs. To get pdf to text, you will need to find a tool online for that purpose, direct copypaste messes up the structure of your data. 
 
+The text in the Wikipedia page also can lead you into thinking about comparable products you could use to understand testing this one better. The claims from the specification are not only on words it would recognize but also on benefits of using it in the first place: clarity of thinking and psychological effects of writing this way leading to e.f. objective expression of feelings. 
+
+The more you read before using the application, the higher the expectations for it are. First pass is most likely reading selectively, and if we really cared for claims, it would require significant effort to isolate and test them. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide28.png)
 
 Now that we have an idea of the domain, let’s look at the functionality as a constraint. 
@@ -482,18 +486,49 @@ Categories of function serve as idea generators. We are sure there is more to br
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide32.png)
 
+Next we focus on the constraint of data. Many applications process data, and this application isn't different. Sometimes the data is visible to us as inputs and outputs we observe. 
 
+Sometimes, the data comes from the application based on our input. 
+
+To deal with data, we have some of our most well know testing techniques:
+
+   * **Equivalence class partitioning** is an idea that we try to minimize the data we use in testing by choosing one for each class of risk. We do this because covering a lot of data is time-consuming and we need to optimize value of testing. However, that constitutes a relevant risk is a long conversation and very application dependent, and anyone seriously applying this technique should look again into automation and risks. For purposes of exploratory testing, think of it as an idea saying you want to try things you can imagine could be different. 
+
+   * **Boundary value analysis** asks you to focus on where behaviors change. If something is allowed until it isn't, the moment where things change is relevant. It is also more likely to be off by one, or vulnerable to problems when combined with another functionality. We suggest to think of this technique as the Goldilocks rule: try too small, too big and just right to really understand if what you are testing works as you would expect.  
+
+These techniques on looking at data can and should be applied to both inputs and outputs, together and separately. We want to tease out different situations with different data. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide33.png)
 
+For every function you could find in the previous chapter, you can extend it by varying it. If you had a button to click, you could click it directly, move focus to it and press enter, try pressing enter when focus is on the text box and see what happens. 
+
+The most lucrative functions with regards to data are ones where the function of the application changes in a relevant way. In the application under test, anything you put into the text field will have a lot of options. 
+
+Using function with one piece of data lets you know the function exists and can work. Combining the function with data and variation, you learn about reliability of the function. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide34.png)
+
+We often find that testers come equipped with experiences of what type of data often fails and use their past experiences with the application. We have learned that when data has a lifecycle, something can go wrong in different stages especially when we mix them up. We create, read, update, and delete data, either completely or partially. 
+
+Similarly, we know whole collections of typically problematic data, like the Github Naughty Strings list at https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt. 
+
+We also may remember from past experiences easy ways of producting garbage text like opening a gif-picture in a text editor to copy from. 
+
+Similarly, we have tools that help us get to these types of ideas, like the Bug Magnet. It is a Chrome extension that allows for injecting values from various categories into a web user interface. 
+
+A wide idea of data often brings out fun in testing. However, we need to stop and think if the values we are trying will be information the team will find relevant. If you start off reporting an application accepts weird inputs but not doing anything particularly bad with them, it most likely will read as you wasting everyone's time. If the application crashes, there is usually a connection to security that makes it more relevant. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide35.png)
 
 Given the constraint of data, now it is time to find the things that could be different. You find data you can vary on the easy places like input values to a text field, but equally data is there on getting to output values of the application. What can you vary to discover problems the application holds? 
 
-
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide36.png)
+
+- 'be'
+- long text without spaces
+- pdf to text
+- gif as text 
+- 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide37.png)
 
