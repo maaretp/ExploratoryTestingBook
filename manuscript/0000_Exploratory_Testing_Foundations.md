@@ -36,6 +36,20 @@ In it's current format, the course takes two days in a classroom to deliver with
 
 Exploratory Testing Foundations by Maaret Pyhäjärvi is licensed under CC BY 4.0. To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/
 
+![Course Notes to Exploratory Testing Foundations](images/ETF/slide+1.png)
+
+Exploratory testing is optimizing value of testing. Let's think about that for a moment. 
+
+Value of testing comes from the value of information. Value exists in relation to cost. Cost can be direct cost - what is the bookkeeping cost of doing something, or it can be opportunity cost - what is the value of something we did not do because we did what we did instead. When you seek to optimize value of testing, you seek to be aware of value of things you do and things you could do, and make good choices. 
+
+Thinking in terms of optimizing value helps us dispel some of the common misconceptions around exploratory testing:
+
+   * It isn't manual, it's attended. Automation can call you to attend. 
+ 
+   * It isn't about error guessing. It is systematic optimization of all sources with continuous learning to do best possible testing with the time you have available, considering both short- and long-term value. 
+ 
+   * It isn't about feeding applications bad data to see weird error messages. In fact, we often don't care for the problems related to these and playing with them isn't optimizing the value of testing. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide2.png)
 
 Exploratory Testing centers learning. The application we test is our external imagination. While we test, we learn about the application and about ourselves. We optimize the value of our work continuously. Instead of following a plan we created at a time we knew the least, we create plans, learn, adjust, even completely revise as we learn. Our ideas of the plan are best when we know the most, at the end of our testing. 
@@ -671,7 +685,6 @@ Saving the mindmap in a common structure and place can work as *documentation fo
 *General purpose mindmaps* include ideas and heuristics you could use for multiple similar applications. Try searching online for web application testing mindmaps, and you find many examples. If those help you, color coding coverage of ideas may be sufficient for you. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide47.png)
-
 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide48.png)
