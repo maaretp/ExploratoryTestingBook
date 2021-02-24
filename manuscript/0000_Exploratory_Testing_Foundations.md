@@ -730,6 +730,16 @@ Testers cope with tedium, developers automate it away. Best of both worlds!
 
 Improving testability
 
+![Course Notes to Exploratory Testing Foundations](images/ETF/slide+n.png)
+
+With exploratory testing, we find it is better to frame testing activities as attended and unattended. 
+
+You need to do attended testing to figure out what information you want and can get out of an application. The application, as we discussed very early on in this course, is our external imagination. It helps you systematically think through what we could and should test. You also need attended testing to slow down just enough to create executable documentation or other programmed tests that extend the reach of your testing. A big part of test automation is actually attended testing, since programmed tests don't write themselves but require a programmer in creating them, even now with major advances on the tool support and examples available making this more approachable. 
+
+You need to do unattended testing where your programmed tests do work for you even when you don't. Repeating to isolate issues on reliability, or covering environments or data variations - all of these are valuable ways of doing exploratory testing and you don't need to attend to them all the time while they run. They hook you back in to attend when something fails and invites you to explore further. 
+
+Creating good, reliable programmed tests is inherently an exploratory testing activity, now in addition to exploring your application you are exploring your application with drivers that you need to balance into the mission of optimizing the value of your testing - today and in long term. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide67.png)
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide68.png)
