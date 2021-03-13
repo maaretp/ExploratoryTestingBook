@@ -778,13 +778,13 @@ We concluded that E-Primer is an English text validator that checks text against
 
 It's key potential risks are: 
 
-    * It suggests wrong corrections and misses corrections in real samples
+   * It suggests wrong corrections and misses corrections in real samples
 
-    * It miscounts words in a way that leads us to underappreciate the scale of processing
+   * It miscounts words in a way that leads us to underappreciate the scale of processing
 
-    * It looks wrong on some browsers and data samples
+   * It looks wrong on some browsers and data samples
 
-    * It requires too much effort to learn in relation to the value of proofreading it provides
+   * It requires too much effort to learn in relation to the value of proofreading it provides
 
 To evaluate the actual risks we would propose the following activities:
 
