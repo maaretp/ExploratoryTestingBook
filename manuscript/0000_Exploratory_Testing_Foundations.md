@@ -760,9 +760,33 @@ Creating good, reliable programmed tests is inherently an exploratory testing ac
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide76.png)
 
+Strategy - ideas guiding our test design - is usually something we think of as starting with, 
+to target our testing to match those ideas. Yet given an application that we know nothing of, 
+before starting testing of it is making decisions prematurely with the least information we have at hand. 
+
+We recommend taking the approach of strategy being always present from the start to the end, and being ready to be summarized after relevant amount of testing to learn the application has already taken place. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide77.png)
 
+To understand what is test strategy, we define it as ideas that guide test design. Those ideas are about risks and tasks, and our understanding of why the application exists in the first place. Since they are ideas about a specific application, we recommend paying attention to the specificity - same ideas don't apply to all applications or project constraints.
+
+We suggest to think about a test strategy as answers to three questions:
+
+   * What is the product?
+
+   * What are the product's key potential risks? 
+
+   * How could we test to evaluate the actual risks? 
+
+The answers to these questions both improve and change over time as we are learning about an application through doing exploratory testing. 
+
+Writing down a strategy enables critique of the ideas that currently drive us. This critique can be you reviewing what you wrote down as time has passed with more experience with the application under your belt, or it can be stakeholders critique inviting improving the ideas you have collected. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide78.png)
+
+Just like everything on this course, when we expect you to create a testing deliverable like test strategy, you can test to create it. The strategy would look different if you did this segment earlier in the course flow than where we tentatively schedule it. 
+
+Let's try testing and creating a written description of a test strategy. Try answering clearly and concisely to 1) what is the product? 2) What are its key potential risks? 3) How could you test to evaluate the actual risks? 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide79.png)
 
@@ -808,6 +832,14 @@ This example is just that - example. It is not the only possible outcome. Your o
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide80.png)
 
+You have reached the end of the course and it is time for us to reflect on what we were teaching. 
+
+The whole course was set up around one simple application, yet we could approach it with many constraints and see different perspectives to quality of it. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide81.png)
 
+The two main constraints were focus without documentation and focus with documentation. Test automation we framed as a form of documentation, and speed of creating it depends on the application as well as the skills around the types of tools needed for it. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide82.png)
+
+You are done with the course, but may have questions. We will set up an exploratory testing slack group you can join. You can ask anything on <a href="https://twitter.com/maaretp">twitter</a> from the main contributor of this course material. And if this material was really valuable to you, you can choose to <a href="https://ko-fi.com/maaretp">pay Maaret as many coffees as you like</a>. A simple message sharing your experiences would also be most appreciated in support of her goal of SCALE - making this material useful for more people.  
