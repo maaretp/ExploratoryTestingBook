@@ -686,26 +686,156 @@ Saving the mindmap in a common structure and place can work as *documentation fo
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide47.png)
 
+On this course we use Robot Framework to illustrate the idea of test automation as documentation. There is one reason to use this tool for illustrating: it introduces the concepts we seek with appearance of working in English not code. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide48.png)
 
+For this course to illustrate test automation, we use Robot Framework. It is a Python-based test framework that comes with:
+
+   * A custom-made language of keywords
+
+   * An ecosystem of keyword libraries you can reuse
+
+   * Possibility to extend the custom-made language with Python
+
+   * Reports and logs that describe results of the testing
+
+You can find instructions to install it online, and if you already have Python installed, it can be as simple as saying on command line: 
+
+```
+pip install robotframework
+```
+
+After this for files with .robot ending, you can run them with: 
+
+```
+robot file.robot
+```
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide49.png)
+
+Documenting with mindmaps is not the only option you have. Let's look at the option of documenting with stepwise test cases, but skip writing them separately and take you directly into the context of test automation when you consider writing them. 
+
+We think of it this way. For creating code, you are translating your intent into something that can be run by the computer. You express your intent in English. You translate your intent in English to code. Your brain is at its strongest working in natural language, not in code. 
+
+At simplest, your code can be just keeping track of the things you would like your tests to do for you programmatically. 
+
+We start with the idea of creating skeleton test automation. It does not automate anything but it moves your test cases into the tooling that you could use in translating your intent of tests to code.
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide50.png)
 
+For writing skeleton test cases in Robot Framework, we show you a simple idea of how to do that. 
+
+You name your test case, with whatever English text you want to have. Think of this as the title of your test case. 
+
+For steps, you need to indent the text under the title. We use a keyword 'Log' to say that whatever text you write after the keyword 'Log' separated by at least two spaces, is written to the log when the script runs. 
+
+It does not test for you, but it can describe how you would test. 
+
+We use this approach in some projects to bring the non-programming testers ideas of what they would like to have in automation into the context of automation code. 
+
+With other tools, we have used a 'best before' style expiration concept to make these tests fail after an agreed time if the team has not picked them up for filling in executable details. 
+
+The more difficult question that the tool for this case is the question of what would make a good test case. Our advice is to write down flows we discovered and deemed relevant while exploratory testing, understanding that we will choose to write down only a small subset of all the flow variations we have played with to discover ones worth keeping around. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide51.png)
+
+Let's try creating a test cases like this with Robot Framework. One is sufficient. What would the basic flow of testing in this application look like? 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide52.png)
 
+Here is one example we created you can save in example.robot:
+
+```
+*** Test Cases ***
+[Tags] ToDo
+Verify a Basic Sentence
+   Log  New page with the application
+   Log  Write sample text into the text field, use To be or not to be is Hamlet's dilemma
+   Log  Click on the button
+   Log  Verify number of words, 9
+   Log  Verify number of discouraged words, 3
+   Log  Verify number of possible violations, 1
+```
+
+Leaving the test with a unique tag allows to see in the report how many tests like this exist, and help drive a process of turning them into automation. 
+
+The skeleton test cases can act as future automation placeholders, and we can choose to write only one line of the test to capture the idea over capturing the steps. 
+
+These can be like traditional test cases but instead of maintaining them in a system of their own, we maintain them in the context of the code, version controlled as code. The aim of such practice would be to limit the distance between different kinds of testing. In the same way when steps are traslated to code, the names of the tests would make sense for everyone on what tests exist in automation. We need to consider reading the names even when we may not ourselves be working in the details of the test code. 
+
+These skeleton test cases are a concrete handoff to an idea to keep around through automating, and while we propose thinking of decomposing the tests differently for automation purpose, refactoring from this input is possible. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide53.png)
+
+To get your automation to drive testing on this application, you need more than what Robot Framework package alone comes with. We are now adding the concepts you need around web applications, namely two things: 
+
+   * Robot Framework Browser library that allows you to drive a web based application.
+
+   * CSS selectors that allow you to express for a program what elements on a web page you want to be manipulating. 
+
+While Browser library gives you keywords to do things in browser, the CSS selectors are a simple form of being specific about what you want to do on that page. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide54.png)
 
+To get Browser library into use, you will need some more setup. At its simplest form you need to run these commands on a command line: 
+
+```
+pip install robotframework-browser
+rfbrowser init
+```
+
+In your example.robot file, you would now need to add a reference to the library:
+
+```
+*** Settings ***
+Library  Browser
+```
+
+At this point, we want to discuss briefly what you get on your machine when you install this library. While it appears on surface to be Robot Framework Browser library, inside it is Playwright. <a href="https://playwright.dev">Playwright is Microsoft's open source web driver tool running on NodeJS. 
+
+While majority of Robot Framework browser testing instructions are with an older Selenium library, this new library lowers the bar for new automators by new design on how waiting for applications work, requiring the user of the tool to do a little less. Waiting for web applications is important because if we look for something on the screen too soon and it has not yet emerged as is typical in these web technologies, our tests fail even though the application works as it should. 
+
+<a href="https://robotframework-browser.org">Robot Framework Browser</a> library promises Speed, Reliability, Visibility. Speed is about it being faster than Selenium library. Reliability is about the new designs on waiting. Visibility is about being able to control API calls in browser as well as working with the web page structures we can expect to be complex in the real world applications. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide55.png)
+
+CSS selectors are one way we can access elements on a web page. For example, we see there is a button, but we need to be more specific for automation purposes on how the program we are creating would know to press exactly that button. 
+
+For various Browser library keywords, we need to tell what locator to use for an element: 
+
+```
+Click   css=#TheOnlyButton
+```
+
+We need to find something that uniquely identifies the thing we want to interact with. To do so, we need to inspect the web page element we are looking for, and make our choices of what the unique value is. Some typical ones are: 
+
+   * id  - css=#id
+
+   * class  - css=.class
+
+   * tag - css=tag   for example css=h1
+
+For more information on how selectors work, we suggest to look into <a href="https://www.w3schools.com/cssref/css_selectors.asp">CSS selectors reference</a>.  
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide56.png)
 
+To get to a place of running your first test with Browser library, you would name your test as you wish and use a <a href="https://marketsquare.github.io/robotframework-browser/Browser.html">keyword</a> from Browser library as the step. 
+
+```
+*** Settings ***
+Library  Browser
+
+*** Test Cases ***
+Open the Page Headless
+  New Page  https://exploratorytestingacademy.com/app/
+```
+
+The test runs quicky and shows nothing other than the result when you run the file from command line. The Browser library runs headless by default - without opening the browser for you to look at. 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide57.png)
+
+
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide58.png)
 
@@ -842,4 +972,4 @@ The two main constraints were focus without documentation and focus with documen
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide82.png)
 
-You are done with the course, but may have questions. We will set up an exploratory testing slack group you can join. You can ask anything on <a href="https://twitter.com/maaretp">twitter</a> from the main contributor of this course material. And if this material was really valuable to you, you can choose to <a href="https://ko-fi.com/maaretp">pay Maaret as many coffees as you like</a>. A simple message sharing your experiences would also be most appreciated in support of her goal of SCALE - making this material useful for more people.  
+You are done with the course, but may have questions. We will set up an exploratory testing slack group you can join. You can ask anything on <a href="https://twitter.com/maaretp">twitter</a> from the main contributor of this course material. And if this material was valuable to you, you can choose to <a href="https://ko-fi.com/maaretp">pay Maaret as many coffees as you like</a>. A simple message sharing your experiences would also be most appreciated in support of her goal of SCALE - making this material useful for more people.  
