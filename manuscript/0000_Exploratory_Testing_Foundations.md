@@ -766,6 +766,46 @@ Creating good, reliable programmed tests is inherently an exploratory testing ac
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide79.png)
 
+After all the testing we had done on the application, we paired on documenting the strategy including all the learning that we had. 
+
+We decided to describe it three sections. 
+
+1. What is the product
+2. What are the key potential risks
+3. How could we test the product so as to evaluate the *actual risks* associated with it
+
+We concluded that E-Primer is an English text validator that checks text against specific rules around avoiding the verb 'to be'. It identified rule breaking with two categories: one that can be checked by a rule and and another that needs human assessment (for now). 
+
+It's key potential risks are: 
+
+    * It suggests wrong corrections and misses corrections in real samples
+
+    * It miscounts words in a way that leads us to underappreciate the scale of processing
+
+    * It looks wrong on some browsers and data samples
+
+    * It requires too much effort to learn in relation to the value of proofreading it provides
+
+To evaluate the actual risks we would propose the following activities:
+
+   * Understand rules of e-prime through research
+
+   * Collect data samples (short and long ones) that represent both e-prime text and text that violates the rules of e-prime and run them through the program
+
+   * Document specification as automation that shows the rules of e-prime and and enables running a subset of tests across browsers
+
+   * Try fooling word count to count less words or more words by specific data samples
+
+   * Run the web page through a set of html validators (incl. accessibility)
+
+   * Visually verify the page with realistic e-prime text samples
+
+   * Read the code of the application for inspiration focusing on names of functions rather than understanding implementation
+
+   * Summarize learning obstacles for user and value of the application as comparison sheet 
+
+This example is just that - example. It is not the only possible outcome. Your outcome can differ, perhaps even should differ and comparing two outcomes is done on usefulness, not exact match. Would following these ideas driving your testing get you to a place where you do good testing that you can be happy with? 
+
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide80.png)
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide81.png)
