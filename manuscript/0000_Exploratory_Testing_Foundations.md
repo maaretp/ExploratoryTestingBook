@@ -528,6 +528,8 @@ Similarly, we know whole collections of typically problematic data, like the Git
 
 We also may remember from past experiences easy ways of producting garbage text like opening a gif-picture in a text editor to copy from. 
 
+A dynamic we often observe when working with data is ability to keep track of coverage of data. If you have a long list of things you could try, some applications allow you to try it all at once. With a wall of text though it is harder to pay attention to details of what is unexpected. Choosing data one type at a time leads us in forgetting what we have and have not covered. 
+
 Similarly, we have tools that help us get to these types of ideas, like the Bug Magnet. It is a Chrome extension that allows for injecting values from various categories into a web user interface. 
 
 A wide idea of data often brings out fun in testing. However, we need to stop and think if the values we are trying will be information the team will find relevant. If you start off reporting an application accepts weird inputs but not doing anything particularly bad with them, it most likely will read as you wasting everyone's time. If the application crashes, there is usually a connection to security that makes it more relevant. 
@@ -547,6 +549,8 @@ We find that with this constraint, people find new bugs they were not previously
    * long text - varying lenght of text is quite basic variation of the goldilocks rule, and finds a bug that reproduces on the course version of the application but not on the one Eviltester created. Seems like styling into a new page introduces functional problems that were unexpected until discovered. 
 
    * e-prime - recognizing well-formulated e-prime and it's violations, in scale of relevance. Not just individual words but longer bodies of text. To get to test these, you either fix the bug on the application creating a local copy or use the Eviltester version. Yes, testers can fix bugs and wasting time because we shouldn't for a simple fix makes little sense. 
+
+   * lucky selection - from e-prime examples, we have observed people choosing both lucky an unlucky subsets. Unlucky subset is one where all of the picked samples work as we would expect, while those we chose to leave out we learn in another session to be broken. Taking a systematic approach to data matters. Large samples make focusing on verifying correctness harder, but also allow for serendipituous discovery of samples we could not identify thinking. Copying the wikipedia page in its entirety is a good example of this .
 
 Note: To fix the bug, you need to fix the css. Change "position: fixed;" to "position:relative;". One line googleable fix. Sometimes you fixing the bug is faster than you writing a bug report. 
 
@@ -581,6 +585,8 @@ We talked about environment being important, but let's reiterate parts of execut
    * **HTML standard compatibility** - Badly formatted html causes errors in the browsers and creates differences across browsers. Try to run your site though a checker tool. 
 
    * **Accessibility standard compatibility** - Your application may not work for disabled people, and some of the low-hanging fruit in that space are collected in standard checkers available as sites and browser add-ons. 
+
+   * **Layers of its architecture** - This particular application is in-browser only. Some web applications comprise of frontend and backend. When we would focus on testing of the backend, we may miss problems in the frontend. Understanding what parts make the application helps us target our exploration. 
 
 ![Course Notes to Exploratory Testing Foundations](images/ETF/slide40.png)
 
