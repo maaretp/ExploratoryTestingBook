@@ -28,4 +28,5 @@
 800_Process.md
 810_Feature_and_Release_Testing.md
 900_Training_an_Exploratory_Tester.md
+1111_TalkToArticle_ExploringPipelines.md
 0000_Exploratory_Testing_Foundations.md
