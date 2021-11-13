@@ -10,7 +10,7 @@ Testing gives the solutions we provide our users a chance of failing in conditio
 
 Someone does some testing on all the different parts going into our solutions. Some parts have many parties doing some testing on them. Over designing, creating and maintaining the solutions users have, we test parts and the whole. We refresh our results because test results are like milk, going sour over time, with increasing speed on conditions of change. 
 
-> Testing: Actively looking for empirical information of aspects that threatens the experience users of software have to know about it to support intent of making available solutions living up to their expectations.
+> **Testing**: Actively looking for empirical information of aspects that threatens the experience users of software have to know about it to support intent of making available solutions living up to their expectations.
 
 Testing is breaking illusions. We think things work, but unless we go back and see, we may be fooling ourselves. 
 
@@ -30,11 +30,11 @@ To frame this work of testing, we see two very different approaches starting fro
 
 With scripted testing, we focus on the things we think we know, and learn that some of those things were not working. Illustrated, scripted testing stays within the boundaries of known.
 
-![Illustration: Scripted Testing](/img/ScriptedTesting.png)
+![Illustration: Scripted Testing](img/ScriptedTesting.png)
 
 With exploratory testing, we cover things within the boundaries of known, but seek to actively expand the boundaries. 
 
-![Illustration: Scripted Testing](/img/ScriptedTesting.png)
+![Illustration: Scripted Testing](img/ScriptedTesting.png)
 
 In scripted testing, we make detailed plans to know what tests we will complete before we are done. 
 
