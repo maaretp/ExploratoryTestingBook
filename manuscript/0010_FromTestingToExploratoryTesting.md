@@ -50,5 +50,15 @@ In this book, we learn a specific style of exploratory testing that is a result 
 
 In scale of testing we believe that **You cannot explore without automation. You cannot automate without exploring.** Exploratory testing is essential to modern test automation success that is all too often founded on a scripted testing approach.
 
+## Simple Yet Complicated
+
+At this point of the book, we have briefly described results of testing (information), defined testing, introduced the scripted and exploratory approaches to testing, and defined we'll journey into contemporary exploratory testing, so expect automation to be a part of the story. 
+
+Before you are ready for theory, history, and sensemaking, we will start from the practice. We'll move through different examples in scope and technology, introduce a bag of tricks and explain how all of this makes sense in practice and in theory.
+
+Testing is simple yet complicated. If anyone could tell us precisely what we are looking for when we go find some of the problems others missed, the work would be a lot easier. Instead, we combine a lot of perspectives and information to do a good job at the work of testing. 
+
+Testing is for everyone, and it can be shared in software development efforts in a lot of different ways. 
+
 
 
