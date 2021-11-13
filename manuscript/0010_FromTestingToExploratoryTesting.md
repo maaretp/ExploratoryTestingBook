@@ -48,7 +48,7 @@ Since 1984 coining of the term *Exploratory Testing* by Cem Kaner, the approach 
 
 In this book, we learn a specific style of exploratory testing that is a result of the author's 25 years of experience in doing and facili exploratory testing. We call this style **contemporary exploratory testing** to emphasize a key difference to a lot of the material out there. Contemporary exploratory testing centers around inclusive approach to test automation.
 
-In scale of testing we believe that **You cannot explore without automation. You cannot automate without exploring.** Exploratory testing is a mix of attended and unattended testing and essential to driving modern test automation success. 
+In scale of testing we believe that **You cannot explore without automation. You cannot automate without exploring.** Exploratory testing is essential to modern test automation success that is all too often founded on a scripted testing approach.
 
 
 
