@@ -34,7 +34,7 @@ With scripted testing, we focus on the things we think we know, and learn that s
 
 With exploratory testing, we cover things within the boundaries of known, but seek to actively expand the boundaries. 
 
-![Illustration: Scripted Testing](img/ScriptedTesting.png)
+![Illustration: Exploratory Testing](img/ExploratoryTesting.png)
 
 In scripted testing, we make detailed plans to know what tests we will complete before we are done. 
 
