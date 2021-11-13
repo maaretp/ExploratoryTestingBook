@@ -1,1 +1,2 @@
 0010_FromTestingToExploratoryTesting.md
+0030_ManagingNewbieTesters.md
