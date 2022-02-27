@@ -85,17 +85,16 @@
 
 ### Odoo
 
-
-## Exploratory Testing without Programming Skill
-
-
-## Exploratory Testing with test design and test execution separated
-
-
-## Case studies of teams and organizations
-
-
 ## Exploratory Testing the Noun - organizational frame of testing
+
+### Case studies of teams and organizations
+
+### Exploratory Testing without Programming Skill
+
+### Exploratory Testing with test design and test execution separated
+
+
+
 
 
 ## Discussion per element

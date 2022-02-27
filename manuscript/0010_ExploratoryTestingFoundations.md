@@ -1389,3 +1389,5 @@ There are other applications we could test to learn - partially same things to d
 ![Course Outline - In Summary](./img/ETF/Slide85.PNG)
 
 The two main constraints were focus without documentation and focus with documentation. Test automation we framed as a form of documentation, and speed of creating it depends on the application as well as the skills around the types of tools needed for it. 
+
+Even if you choose to support others in your team automating from your insights from exploratory testing, knowing it can be done and considering what documentation to leave behind as automation are essential. We say that Contemporary Exploratory Testing is an approach limited by process (can't do it fully if test design and execution are separate) and skill (can't do it fully if you don't know how to test and program). There's always room to improve, for all of us. 
