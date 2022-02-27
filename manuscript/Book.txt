@@ -1,3 +1,1 @@
-0010_FromTestingToExploratoryTesting.md
-0020_HowWouldYouTestATextField.md
-0030_ManagingNewbieTesters.md
+0000_ExploratoryTestingFoundations.md

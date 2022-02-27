@@ -95,6 +95,9 @@
 ## Case studies of teams and organizations
 
 
+## Exploratory Testing the Noun - organizational frame of testing
+
+
 ## Discussion per element
 
 ### Time in testing: setup, test, bug
