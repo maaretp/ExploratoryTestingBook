@@ -12,4 +12,4 @@ It's not about the thinking work you do with your hands in the game, but all too
 
 This book grows chapter by chapter and it has a deadline: my 25th career anniversary in start of October. Access to an early version will give you access to the final version. 
 
-![Outline](./img/outline.png)
+![Outline](./img/outline.jpg)
