@@ -63,6 +63,9 @@
 ### First Theory
 
 
+## Exploratory Testing of Computer Interfaces
+
+
 ## Exploratory Unit Testing
 
 ### Gilded Rose
@@ -96,6 +99,8 @@
 
 ### Time in testing: setup, test, bug
 
+### Session types
+
 ### Self-management 101: Mission, charter, charter backlog, details, reflection
 
 ### Written assignments: test cases and charters
@@ -110,7 +115,17 @@
 
 ### Managing based on sessions
 
+### Test Strategy
+
+### Coming up with test ideas
+
 ### Test design techniques
+
+### Heuristics and Biases
+
+### Mnemonics
+
+### Oracles
 
 ### Test automation architecture
 
@@ -119,6 +134,12 @@
 ### Prioritizing testing work
 
 ### Sharing testing work
+
+### Visual thinking
+
+### Test Planning and Process
+
+### Tools
 
 
 ## Social Software Testing Approaches
@@ -134,3 +155,10 @@
 #### Examples
 
 #### Experiments
+
+
+## History of Exploratory Testing
+
+### 1984: Coined by Cem Kaner
+
+### 1988: Testing Computer Software mentions Exploratory Tests
