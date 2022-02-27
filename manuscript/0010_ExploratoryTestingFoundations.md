@@ -24,7 +24,7 @@ We know there is more to teach on exploratory testing than this one course or ch
 
 ## Introduction to Exploratory Testing Foundations
 
-![Exploratory Testing Foundations - the Course](./img/ETF/Slide1.PNG)
+![Exploratory Testing Foundations - the Course](./img/ETF/Slide1.png)
 
 Welcome to Exploratory Testing Foundations. This course intertwines a simple application to test with basic theory of how to do exploratory testing to give you a foundation to build on. 
 
@@ -747,14 +747,15 @@ We use this approach in some projects to bring the non-programming testers ideas
 If you want cleaner English with the GIVEN-WHEN-THEN syntax, you need to do a little bit of more setup to take pytest-bdd into use. 
 
 You can install it with:
+
 ```
 pip install pytest-bdd
 ```
 
-You need a folder called *Tests* and under it another folder called *features*, with a file ending
-*.feature*.
+You need a folder called *Tests* and under it another folder called *features*, with a file ending *.feature*.
 
 Your eprime.feature -file could then include:
+
 ```
 Feature: Eprime text analysis
     As a user,
@@ -768,6 +769,7 @@ Feature: Eprime text analysis
 ```
 
 Now, you can run your tests with:
+
 ```
 pytest 
 ```
@@ -840,7 +842,7 @@ Playwright promises speed, reliability, visibility. Speed is about it being fast
 
 CSS selectors are one way we can access elements on a web page. For example, we see there is a button, but we need to be more specific for automation purposes on how the program we are creating would know to press exactly that button. 
 
-For various Playweight library methods, we need to tell what locator to use for an element: 
+For various Playwright library methods, we need to tell what locator to use for an element: 
 
 ```
 page.click("#TheOnlyButton")
@@ -948,6 +950,7 @@ def test_example(page: Page):
 
 
 Step 2. Refactor to variables 
+
 ```
 from playwright.sync_api import Page
 
@@ -986,6 +989,7 @@ Parametrized tests are an idea that for any linear script, you can replace all v
 Moving from a linear script in step 2 to a parametrized test can be done with refactoring without changing yet the test at all. Taking steps in programming your test is just as good a practice as taking steps in your other exploratory testing activities. 
 
 Step 3. Refactor to template tests
+
 ```
 from playwright.sync_api import Page
 
@@ -1030,7 +1034,7 @@ def test_parametrized(page: Page, input_text, expect_wordcount, expect_discourag
 
 We propose creating a nice list of examples you can find in the application linked Wikipedia page you analyzed as a specification. Our expectation is that your experience of collecting those examples into this format can be straightforward. 
 
-You can also try for a file you saved as text.txt: 
+You can also try for a file you saved as sample.txt: 
 
 ```
 from playwright.sync_api import Page
@@ -1058,6 +1062,7 @@ def test_parametrized(page: Page, input_text, expect_wordcount, expect_discourag
 ```
 
 You can also choose to name your tests so that when you run them, you see your assigned names:
+
 ```
 from playwright.sync_api import Page
 
