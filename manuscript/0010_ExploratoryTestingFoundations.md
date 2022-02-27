@@ -209,7 +209,7 @@ Some people will start with automation first. With many sessions over testing th
 
 ## Self-Management in Exploratory Testing
 
-![Self-Management Basics and Setting Yourself Constraints]images/ETF/Slide13.jpg)
+![Self-Management Basics and Setting Yourself Constraints](images/ETF/Slide13.jpg)
 
 You have options for exploring, and your task in exploratory testing is adjust your intent, charter and constraints on a cycle that enables *you* to keep up and do the best possible testing you can. Exploratory testing centers the tester, so you don’t have someone from the outside telling you what detail to verify, the control is with you. 
 
@@ -1311,7 +1311,7 @@ You thought about time, now think about coverage. Would the testing you did and 
 
 Can you still think of something we did not test? 
 
-![Test Strategy]images/ETF/Slide80.jpg)
+![Test Strategy](images/ETF/Slide80.jpg)
 
 Strategy - ideas guiding our test design - is usually something we think of as starting with, 
 to target our testing to match those ideas. Yet given an application that we know nothing of, 
