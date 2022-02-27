@@ -24,7 +24,7 @@ We know there is more to teach on exploratory testing than this one course or ch
 
 ## Introduction to Exploratory Testing Foundations
 
-![Exploratory Testing Foundations - the Course](./img/ETF/Slide1.jpg)
+![Exploratory Testing Foundations - the Course](img/ETF/Slide1.jpg)
 
 Welcome to Exploratory Testing Foundations. This course intertwines a simple application to test with basic theory of how to do exploratory testing to give you a foundation to build on. 
 
