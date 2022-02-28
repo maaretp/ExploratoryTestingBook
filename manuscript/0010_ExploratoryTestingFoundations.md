@@ -20,7 +20,7 @@ The chapter sets out to teach foundational concepts of **contemporary explorator
 
 * It reveals that a simple application that appears to 'work' has meaningful layers to isolate information on. 
 
-We know there is more to teach on exploratory testing than this one course or chapter in this book includes. We will create separate similar yet different sets on different types of applications and contraints that make sense with each of those examples. We will also address Exploratory testing the Noun - organizational frame of testing - on later chapters. This one focuses on Exploratory testing the Verb - doing really good work optimizing value of testing through learning while testing. We give sections of this chapter to the contraint of test automation as documentation, as we believe that this is a core aspect of contemporary exploratory testing. You can't automate well without exploring. You can't explore well without automating. 
+We know there is more to teach on exploratory testing than this one course or chapter in this book includes. We will create separate similar yet different sets on different types of applications and constraints that make sense with each of those examples. We will also address Exploratory testing the Noun - organizational frame of testing - on later chapters. This one focuses on Exploratory testing the Verb - doing really good work optimizing value of testing through learning while testing. We give sections of this chapter to the constraint of test automation as documentation, as we believe that this is a core aspect of contemporary exploratory testing. You can't automate well without exploring. You can't explore well without automating. 
 
 ## Introduction to Exploratory Testing Foundations
 
