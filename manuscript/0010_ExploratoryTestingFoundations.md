@@ -1309,7 +1309,7 @@ We are painting on an empty canvas, and we try to understand what is there. Bugs
 
 You thought about time, now think about coverage. Would the testing you did and thought of have missed any of the bugs we have mentioned on the course? 
 
-Can you still think of something we did not test? 
+Can you still think of something we did not test? Maybe Security? Performance? Or Reliability? 
 
 ![Test Strategy](images/ETF/Slide80.jpg)
 
