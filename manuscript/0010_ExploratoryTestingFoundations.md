@@ -118,7 +118,7 @@ Exploratory testing – doing testing from whatever the input - emphasizes learn
 
 We want to specifically mention four categories of input:
 
-* **Domain knowledge** is about what the tester knows and how well the existing knowledge enables connecting with new knowledge to understand what the application is about, why would anyone want to use it and what risks pose a relevant, meaningful threat to its value.Both knowing domain of this application or another domain enable you to compare and contrast the information you have to information you are acquiring as you are testing, and building patterns. 
+* **Domain knowledge** is about what the tester knows and how well the existing knowledge enables connecting with new knowledge to understand what the application is about, why would anyone want to use it and what risks pose a relevant, meaningful threat to its value. Both knowing domain of this application or another domain enable you to compare and contrast the information you have to information you are acquiring as you are testing, and building patterns. 
 
 * **Requirements and specifications** is about knowing the agreements around the organization on what the application under test should do. While being aware of claims is good, sticking only to claims made by others limits testing in a way that it can block us from starting conversations on relevant features we are missing. 
 
@@ -134,7 +134,7 @@ Let’s now say this out loud: test automation belongs in exploratory testing. Y
 
 If you don't know how to code and write automation, it cannot be part of exploratory testing you do personally. What you cannot do personally, you can compensate for through collaboration. Collecting ideas to pass to team members while exploratory testing to document as automation may be a constraint you live with. You can also learn to code and remove a knowledge-based constraint. Same applies for people who know programming but have hard time with good testing ideas. You can also learn to test and remove a knowledge-based constraint. 
 
-On the knowledge-based constraints, we would like to remind people that software industry doubles in size every five years, meaning half of us have less than five years of experience. With less than five years of experience, we have knowledge-based contraints we later in our careers learn away from. Choosing a focus of skills to learn first is a natural way for us to divide the learning in a team, without letting it box us indefinitely into roles. Contributing to test automation efforts isn’t the most complex of our programming tasks and we believe everyone can learn it. We're less sure if everyone can learn to think in ways that ensure multidimensional coverage and we're hopeful with that too.  
+On the knowledge-based constraints, we would like to remind people that software industry doubles in size every five years, meaning half of us have less than five years of experience. With less than five years of experience, we have knowledge-based constraints we later in our careers learn away from. Choosing a focus of skills to learn first is a natural way for us to divide the learning in a team, without letting it box us indefinitely into roles. Contributing to test automation efforts isn’t the most complex of our programming tasks and we believe everyone can learn it. We're less sure if everyone can learn to think in ways that ensure multidimensional coverage and we're hopeful with that too.  
 
 Successful output is effective: we find problems our organization expects us to find. The path to the result of finding relevant issues is through understanding coverage. 
 
@@ -237,7 +237,7 @@ A charter could be a very traditional step-by-step test case with your promise o
 
 Charter is a structure for *thinking like this*, not *passing work along like this*. Some people use charters to share work in team and our advice is to not do that *unless* you co-created the charters in the first place. As soon as you remove tester designing, executing, and learning intertwined, and replace it with a tester designing and another executing, you will lose a core feature of what makes testing exploratory testing and shorten the leash a tester learns in. 
 
-Elizabeth Hendrickson introduced a charter template in her book Explore It, and Elizabeth Zagroba introduced an adaptation of it in one of her presentations. We like the concise template a lot but encourage you to think in terms of charters being anything that can box your testing and help you maintain focus, rather than follow a format. 
+[Elizabeth Hendrickson](https://twitter.com/testobsessed) introduced a charter template in her book Explore It, and [Elizabeth Zagroba](https://twitter.com/ezagroba) introduced an adaptation of it in one of her presentations. We like the concise template a lot but encourage you to think in terms of charters being anything that can box your testing and help you maintain focus, rather than follow a format. 
 
 We advise against using charters for passing work along unless the work distribution is a shared endeavor between people. When we pass them along, the process starts to resemble traditional test cases where someone is following another's lead. This might be a temporary structure you try when you have new testers but our advise on teaching new testers is to pair with them rather than passing information through documentation they don't yet understand how to stretch. 
 
@@ -253,7 +253,7 @@ If you try to do everything at once, you can’t get any of it done. So, we get 
 
 Testing is a lot of fun. Finding out information that others don’t know is investigative work, and servicing many stakeholders is an intellectual challenge. No matter what changed, there is something new we now need to figure out, in a way that optimizes the value of our work. Doing the exact same things isn’t optimizing value of our work, so you start with the idea of always varying things to not be bored. If you find yourself bored, you need a new constraint that challenges you. 
 
-Some folks take automation as the challenge that keeps them from being bored. Others find the multidimensional work all the ways we could use the application to see new problems motivating. Some people say that automating helps them have time for exploring, and they mean that seeing simple problems isn't good use of anyone's time. Covering ground with the application under test in a repeatable way is the gruntwork of automation.  However, automating on level of unit tests might be our best bet towards catching unintended simple bugs and we like framing freeform exploratory testing and unit tests together in keeping things interesting! 
+Some folks take automation as the challenge that keeps them from being bored. Others find the multidimensional work all the ways we could use the application to see new problems motivating. Some people say that automating helps them have time for exploring, and they mean that seeing simple problems isn't good use of anyone's time. Covering ground with the application under test in a repeatable way is the grunt work of automation. However, automating on level of unit tests might be our best bet towards catching unintended simple bugs and we like framing freeform exploratory testing and unit tests together in keeping things interesting! 
 
 ![Explore with Intent](images/ETF/Slide16.jpg)
 
@@ -325,7 +325,7 @@ You usually stop testing before you have exhausted all your options. Knowing you
 
 ![Let's Test](images/ETF/Slide20.jpg)
 
-With all this said, it is our time to test. The application is available at https://www.exploratorytestingacademy.com/app/ and eviltester’s original at https://eviltester.github.io/TestingApp/apps/eprimer/eprimer.html. 
+With all this said, it is our time to test. The application is available at https://www.exploratorytestingacademy.com/app/ and [Alan Richardson's](https://twitter.com/eviltester) original at https://eviltester.github.io/TestingApp/apps/eprimer/eprimer.html. 
 
 Pay attention to where you start from, how you learn, and how you decide on your next steps. After every single thing you execute, stop and ask yourself: what did you learn? 
 
@@ -343,7 +343,7 @@ We have lead the first impression to the course with different constraints with 
 
 * Given domain documentation, the understanding of relevance of results is better. Approach to slicing documentation varies a lot. 
 
-* Given a mindmap requirement and a functional contraint, people create clearer plans and document bugs in a quick way.  
+* Given a mindmap requirement and a functional constraint, people create clearer plans and document bugs in a quick way.  
 
 Your first impression and learning of the application is most likely not taking you this far. This mindmap is from an hour of pair testing with a tester who found none of these problems alone but needed training on how to look at an application to identify what might go wrong with it. The mindmap is by no means exhaustive list of things that are off with the application. We’ll talk about bugs in more detail when we get to the part about coverage – because most relevant coverage is bug coverage.  The challenge is, we can only assess bug coverage in hindsight.  
 
@@ -394,7 +394,7 @@ We can search online for any information about e-prime we consider useful and ed
 
 With specification, we can find phrases to test with that showcase the application’s functionality. This good demo phrase for E-primer - "To be or not to be is Hamlet's dilemma" - is a result of testing, not the first idea to use the application even based on its Wikipedia description. We can best get good demo examples by asking the developers on how they discover the functionality. The phrase illustrates how you can get to seeing both Discouraged words and Possible violations, while counting words correctly. 
 
-We have not talked to the application developer, Alan Richardson aka eviltester, to understand why he would choose to separate these two concepts. A working theory from exploration is that Possible violations are algorithmically harder to separate and require human assessment on whether it is possessive or a short form of "is". 
+We have not talked to the application developer, [Alan Richardson](https://twitter.com/eviltester), to understand why he would choose to separate these two concepts. A working theory from exploration is that possible violations are algorithmically harder to separate and require human assessment on whether it is possessive or a short form of "is". 
 
 ![Source Code](images/ETF/Slide26.jpg)
 
@@ -410,7 +410,7 @@ Like with reading and writing English, they are connected but not the same. We c
 
 ![Let's Test](images/ETF/Slide27.jpg)
 
-It is time to test. Try out what how testing flows when focusing on the domain knowledge. What do you think of coverage of what you have tested so far? Eventually, we care about you not missing relevant information others don’t yet have and thus can’t specifically ask of you! Try to make sure you cover the claims the wikipedia page includes, or that you can explain the percentage of coverage against that you think you have. 
+It is time to test. Try out what how testing flows when focusing on the domain knowledge. What do you think of coverage of what you have tested so far? Eventually, we care about you not missing relevant information others don’t yet have and thus can’t specifically ask of you! Try to make sure you cover the claims the Wikipedia page includes, or that you can explain the percentage of coverage against that you think you have. 
 
 Take 15 minutes alone, or 30 minutes as an ensemble. 
 
@@ -432,9 +432,9 @@ Most commonly people come to understand “Possible violations” as a side effe
 
 You learn domain by asking questions and paying attention to answers the application gives you when you test it. Not all your questions have an answer, but they start conversations. You get to consider how far you take them. What helps you optimize the value of your work when testing? 
 
-To get to some of the samples the Wikipedia page leads you to, you have to go through a number of tools. For example, a great reference of eprime where there should be low number of things to detect is the Bible written in e-prime, available as pdfs. To get pdf to text, you will need to find a tool online for that purpose, direct copypaste messes up the structure of your data. 
+To get to some of the samples the Wikipedia page leads you to, you have to go through a number of tools. For example, a great reference of eprime where there should be low number of things to detect is the Bible written in e-prime, available as pdfs. To get pdf to text, you will need to find a tool online for that purpose, direct copy-paste messes up the structure of your data. 
 
-The text in the Wikipedia page also can lead you into thinking about comparable products you could use to understand testing this one better. The claims from the specification are not only on words it would recognize but also on benefits of using it in the first place: clarity of thinking and psychological effects of writing this way leading to e.f. objective expression of feelings. 
+The text in the Wikipedia page also can lead you into thinking about comparable products you could use to understand testing this one better. The claims from the specification are not only on words it would recognize but also on benefits of using it in the first place: clarity of thinking and psychological effects of writing this way leading to e..g objective expression of feelings. 
 
 The more you read before using the application, the higher the expectations for it are. First pass is most likely reading selectively, and if we really cared for claims, it would require significant effort to isolate and test them. 
 
@@ -444,7 +444,7 @@ Now that we have an idea of the domain, let’s look at the functionality as a c
 
 Different applications are built on a different technology. As someone testing an application, getting to know about the technology is something we would expect. Not expert level knowledge, but at least a basic level curiosity turning into expert level knowing over time, question after question. 
 
-A lot of testers given a picture of the application start suggesting SQL into the text box or want to use Developer tools to watch network traffic. They find themselves puzzled with a javascript application running in browser after you first download it, and their backend related test ideas are not taking them far.  The application keeps working even if you disconnect from network as long as you don’t try to refresh from the download location. 
+A lot of testers given a picture of the application start suggesting SQL into the text box or want to use Developer tools to watch network traffic. They find themselves puzzled with a JavaScript application running in browser after you first download it, and their backend related test ideas are not taking them far.  The application keeps working even if you disconnect from network as long as you don’t try to refresh from the download location. 
 
 Let’s discuss functionality as constraint a little more. 
 
@@ -528,9 +528,9 @@ Using function with one piece of data lets you know the function exists and can 
 
 We often find that testers come equipped with experiences of what type of data often fails and use their past experiences with the application. We have learned that when data has a lifecycle, something can go wrong in different stages especially when we mix them up. We create, read, update, and delete data, either completely or partially. 
 
-Similarly, we know whole collections of typically problematic data, like the Github Naughty Strings list at https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt. 
+Similarly, we know whole collections of typically problematic data, like the GitHub Naughty Strings list at https://github.com/minimaxir/big-list-of-naughty-strings/blob/master/blns.txt. 
 
-We also may remember from past experiences easy ways of producting garbage text like opening a gif-picture in a text editor to copy from. 
+We also may remember from past experiences easy ways of producing garbage text like opening a gif-picture in a text editor to copy from. 
 
 A dynamic we often observe when working with data is ability to keep track of coverage of data. If you have a long list of things you could try, some applications allow you to try it all at once. With a wall of text though it is harder to pay attention to details of what is unexpected. Choosing data one type at a time leads us in forgetting what we have and have not covered. 
 
@@ -550,13 +550,13 @@ We find that with this constraint, people find new bugs they were not previously
 
 * apostrophes - there's two types of it and application only knows one, and even we did not expect to learn about differences of typesetter and typewrite apostrophes. Similarly, put the apostrophes right into the forbidden word, and it no longer gets recognized: 'be' 
 
-* long text - varying lenght of text is quite basic variation of the goldilocks rule, and finds a bug that reproduces on the course version of the application but not on the one Eviltester created. Seems like styling into a new page introduces functional problems that were unexpected until discovered. 
+* long text - varying length of text is quite basic variation of the goldilocks rule, and finds a bug that reproduces on the course version of the application but not on the one eviltester created. Seems like styling into a new page introduces functional problems that were unexpected until discovered. 
 
 * e-prime - recognizing well-formulated e-prime and it's violations, in scale of relevance. Not just individual words but longer bodies of text. The specification page has a link to e-prime bible, in pdf, that you can transform to text and use as a great revealing source for data-related issues. To get to test these, you either fix the bug on the application creating a local copy or use the Eviltester version. Yes, testers can fix bugs and wasting time because we shouldn't for a simple fix makes little sense. 
 
-* lucky selection - from e-prime examples, we have observed people choosing both lucky an unlucky subsets. Unlucky subset is one where all of the picked samples work as we would expect, while those we chose to leave out we learn in another session to be broken. Taking a systematic approach to data matters. Large samples make focusing on verifying correctness harder, but also allow for serendipituous discovery of samples we could not identify thinking. Copying the wikipedia page in its entirety is a good example of this .
+* lucky selection - from e-prime examples, we have observed people choosing both lucky an unlucky subsets. Unlucky subset is one where all of the picked samples work as we would expect, while those we chose to leave out we learn in another session to be broken. Taking a systematic approach to data matters. Large samples make focusing on verifying correctness harder, but also allow for serendipitous discovery of samples we could not identify thinking. Copying the Wikipedia page in its entirety is a good example of this .
 
-Note: To fix the bug, you need to fix the css. Change "position: fixed;" to "position: relative;". One line googleable fix. Sometimes you fixing the bug is faster than you writing a bug report. 
+Note: To fix the bug, you need to fix the css (stylesheet). Change "position: fixed;" to "position: relative;". One line googleable fix. Sometimes you fixing the bug is faster than you writing a bug report. 
 
 ![Recognizing Application and Execution Environment](images/ETF/Slide38.jpg)
 
@@ -582,7 +582,7 @@ We evaluate applications as systems for multiple stakeholders. Pointing out the 
 
 We talked about environment being important, but let's reiterate parts of execution environment for a web application. 
 
-* **Browsers, web and mobile on an operating system** - We have a lot of browsers, browser versions, browser versions on different operating systems. Some operating systems are desktop, others mobile. And majority of people use web on mobile phonese these days. Operating systems have security features that may adversely hit your product, and antivirus solutions in particular might not like your site or its content and functionality quite as you envisioned. 
+* **Browsers, web and mobile on an operating system** - We have a lot of browsers, browser versions, browser versions on different operating systems. Some operating systems are desktop, others mobile. And majority of people use web on mobile phones these days. Operating systems have security features that may adversely hit your product, and antivirus solutions in particular might not like your site or its content and functionality quite as you envisioned. 
 
 * **Browser functionality, settings, add-ons** - Browsers have functionality (like zoom), settings (like no cookies), and add-ons (like ad-blocker). While you don't have to support them all, you probably want to know their impact to your application before your users are on the phone upset on not even understanding why your application does not work on their computer. 
 
@@ -650,7 +650,7 @@ Since we are now discussing the basic documentation of testing, we should talk a
 
 Cem Kaner et al. wrote in their book Lessons Learned in Software Testing this:
 
-> A tester that does not report bugs well is like a refridgerator light that is only on when the door is closed. 
+> A tester that does not report bugs well is like a refrigerator light that is only on when the door is closed. 
 
 In providing information and starting conversations, only conversations started can make a difference. Our bug report handling skills are often our signature in the project. 
 
