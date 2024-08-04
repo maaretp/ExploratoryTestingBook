@@ -1,10 +1,6 @@
 # Contemporary Exploratory Testing Foundations
 
-*Published: Sept 20th 2021* | *Updated: Aug 4th 2024* 
-
-* Keywords: testing, exploratorytesting, testautomation, course
-
-With so much to say and share on Exploratory Testing, what would you need to know to get started? This question lead us to summarizing basic theory on exploratory testing around one test target, and to creation of Contemporary Exploratory Testing Foundations course material presented in this section. The course, slides and accompanying content description that together make up Contemporary Exploratory Testing Foundations by Maaret Pyhäjärvi and is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) and is made available at [Exploratory Testing Academy](https://www.exploratorytestingacademy.com). Also consider [supporting me on Ko-Fi](https://ko-fi.com/maaretp).
+With so much to say and share on Exploratory Testing, what would you need to know to get started? This question lead us to summarizing basic theory on exploratory testing around one test target, and to creation of Contemporary Exploratory Testing Foundations course material presented in this section. The course, slides and accompanying content description that together make up Contemporary Exploratory Testing Foundations by Maaret Pyhäjärvi and is licensed under [CC BY 4.0](http://creativecommons.org/licenses/by/4.0/) and is made available at [Exploratory Testing Academy](https://www.exploratorytestingacademy.com). Also consider [supporting me on Ko-Fi](https://ko-fi.com/maaretp) or [paying for the book on Leanpub](https://leanpub.com/exploratorytesting).
 
 To create the course, Maaret Pyhäjärvi paired to test the application under test with the brilliant Irja Straus (Croatia), Parveen Khan (United Kingdom), Julia Durán Muñoz (Spain) and Mirja Pyhäjärvi (Finland). The application and lessons were tried with many ensemble testing groups to finally come to be summarized as part of the course. We particularly want to appreciate two open space communities in creation of this content: [Socrates UK](https://socratesuk.org) and [Friends of Good Software](https://frogsconf.nl). Both served as places to try out hands-on testing of the application to see the dynamics under various constraints.
 
@@ -1457,7 +1453,3 @@ The two main constraints were focus without documentation and focus with documen
 
 Even if you choose to support others in your team automating from your insights from exploratory testing, knowing it can be done and considering what documentation to leave behind as automation are essential. We say that Contemporary Exploratory Testing is an approach limited by process (can't do it fully if test design and execution are separate) and skill (can't do it fully if you don't know how to test and program). There's always room to improve, for all of us. 
 
-
-![About the Course Author](images/CETF/Slide91.png)
-
-You are done with the course, but may have questions. We have set up <a href="https://docs.google.com/forms/d/e/1FAIpQLSfQUlLU2agTSp0eMHj7nWMdi8eMD6-iNvdKZvIjkXP_6qAexA/viewform">an exploratory testing slack group</a> you can join. You can ask anything on <a href="https://twitter.com/maaretp">twitter</a> from the main contributor of this course material. And if this material was valuable to you, you can choose to <a href="https://ko-fi.com/maaretp">pay Maaret as many coffees as you like</a>. A simple message sharing your experiences would also be most appreciated in support of her goal of SCALE - making this material useful for more people.  
