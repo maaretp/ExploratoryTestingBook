@@ -1,2 +1,2 @@
 0000_Introduction.md
-0010_ExploratoryTestingFoundations.md
+0010_ContemporaryExploratoryTestingFoundations.md
